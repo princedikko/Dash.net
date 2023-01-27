@@ -1,13 +1,679 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Header Decoration Blocks */
+
+.notificationBar {
+  /* background-color: #f0efad; */
+  background-color: #f5cb8a;
+  padding: 1.2rem 1.8rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 200;
+  font-family: serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  padding: 1.1rem 3.2rem;
+}
+/* .icon {
+  font-size: 5rem;
+} */
+.navLogo {
+  max-width: 10.5rem;
+}
+
+.navBarItems {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem:link,
+.navItem:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.navForm {
+  display: inline-block;
+  width: 50rem;
+  border: 1px solid #999;
+  border-radius: 50rem;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  padding: 0.4rem 1.4rem 0.4rem 1.4rem;
+}
+
+input[name="search"] {
+  width: 88.1%;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #666;
+  border: none;
+  background-color: transparent;
+}
+
+button[type="navSearch"] {
+  background-color: transparent;
+  border: none;
+  /* padding: 0.8rem; */
+  cursor: pointer;
+}
+
+.navFigure {
+  gap: 1.6rem;
+}
+.navBtn:link,
+.navBtn:visited {
+  font-size: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.8rem 1.9rem;
+  /* background-color: #2f63b2; */
+  background-color: #555b70;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.navBtn:first-child:link,
+.navBtn:first-child:visited {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #555b70;
+  /* color: #2f63b2; */
+  color: #555b70;
+}
+
+#login:hover,
+#login:active {
+  color: #fff;
+  opacity: 0.8;
+  /* background-color: #2f63b2; */
+  background-color: #555b70;
+}
+
+#reg:hover,
+#reg:active {
+  color: #2f63b2;
+  /* opacity: 0.8; */
+  background-color: transparent;
+  box-shadow: inset 0rem 0rem 0rem 0.2rem #2f63b2;
+}
+
+.homeScroll {
+  background-color: #555b70;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.homeScroll ul {
+  list-style-type: none;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.homeScroll a:link,
+.homeScroll a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+/* ----------------------------------
+Hero Decoration Blocks
+-------------------------------------- */
+.heroBackground {
+  background-color: #ebf2fc;
+  padding: 3.4rem;
+}
+.heroContainer.flex {
+  gap: 1.2rem;
+  justify-content: center;
+}
+.heroCard {
+  width: 31.1%;
+  grid-gap: 1.2rem;
+}
+.heroCard a {
+  border-radius: 0.8rem;
+  overflow: hidden;
+  height: 98%;
+  /* background-color: #2f63b2; */
+}
+.heroCard img {
+  width: 100%;
+}
+
+.heroSlide {
+  width: 67.5%;
+}
+
+.heroSlide img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.heroFlyer {
+  /* background-color: red; */
+  width: 12.7%;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.heroFlyer img {
+  width: 100%;
+}
+
+/* ----------------------------------
+Image Gallery Decoration Blocks
+-------------------------------------- */
+.imgGalHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.imgGalHead .heading--secondary {
+  font-family: serif;
+  font-size: 4rem;
+}
+
+.imgGalHead .galDisc {
+  font-size: 1.8rem;
+}
+
+.Section--Gallery {
+  margin: 3.4rem;
+}
+
+/* ----------------------------------
+Services We Provide Decoration Blocks
+-------------------------------------- */
+
+.ourServices {
+  /* max-width: 80%; */
+  margin: 0 auto;
+  column-gap: 2.4rem;
+  row-gap: 4.4rem;
+  font-size: 1.5rem;
+}
+
+.OurServiceCard {
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  background-color: #555b70;
+  color: #fff;
+}
+
+/* ----------------------------------
+Networks Components Decoration Blocks
+-------------------------------------- */
+.sectionNetworks {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+/* MTN MB CARDS */
+.mtnComponent {
+  font-size: 1.5rem;
+  background-color: #ebf2fca2;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+.imgComponent {
+  width: 30%;
+  position: relative;
+}
+
+.imgComponent img {
+  width: 100%;
+}
+
+.btnExplore:link,
+.btnExplore:visited {
+  list-style-type: none;
+  font-size: 1.5rem;
+  color: #999;
+  padding: 0.8rem 1.4rem;
+  border-radius: 5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 2.5rem;
+  bottom: 4.3rem;
+}
+
+.cardComponent {
+  max-width: 70%;
+  gap: 2.2rem;
+  padding: 0px 2.5rem;
+}
+.dataCard {
+  border: 1px solid #a3a6b1ad;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
+/* GLO MB CARDS */
+
+.gloComponent {
+  /* background-color: #f2f7fd; */
+  flex-direction: column;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  border: 1px solid #ddd;
+}
+
+.gloComponent h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5cb8a;
+  color: #000;
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.gloDataCards {
+  padding: 2.4rem;
+  gap: 1.8rem;
+}
+
+.mediumCard {
+  border: 1px solid #eee;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
+/* Airtel Data plans */
+.airtelContainer {
+  flex-direction: column;
+  border-radius: 1.2rem;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.airtelContainer h2 {
+  width: 100%;
+  text-align: center;
+  padding: 1.8rem;
+  background-color: palegoldenrod;
+}
+
+.airtelCards {
+  gap: 3.4rem;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+
+/*  AIRTIME PRICING */
+
+.airTimeComp {
+  gap: 3.4rem;
+}
+.ctaAirtime {
+  flex-direction: column;
+  gap: 2.4rem;
+  background-color: #eaeff7;
+  font-size: 1.5rem;
+  width: 50%;
+  border-radius: 1.2rem;
+  padding: 1.8rem;
+}
+
+.ctaAirtime h2 {
+  font-size: 3.4rem;
+}
+
+.ctaAirtime a:link,
+.ctaAirtime a:visited {
+  list-style-type: none;
+  background-color: #555b70;
+  padding: 0.8rem 3.2rem;
+  border-radius: 5rem;
+  color: #eaeff7;
+}
+
+.cardsAirtime {
+  width: 50%;
+  gap: 2.4rem;
+}
+
+.cardsAirtime h3 {
+  font-size: 3rem;
+}
+
+.cardsAirtime p {
+  font-size: 4rem;
+}
+
+.airtimeCard {
+  border-radius: 1.2rem;
+  border: 1px solid #eee;
+  padding: 1.2rem;
+}
+
+/* ----------------------------------
+ TV Networks Decoration Blocks
+-------------------------------------- */
+.tvCableSubContainer {
+  gap: 2.4rem;
+}
+
+.tvCardCont {
+  /* background-color: green; */
+  font-size: 1.5rem;
+  color: #fff;
+  width: 23rem;
+  height: 38rem;
+  position: relative;
+}
+
+.theTvCard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.6s ease;
+  /* background-color: palevioletred; */
+}
+
+.theTvCard:hover,
+.theTvCard:active {
+  transform: rotateY(180deg);
+}
+
+.tvCardFront,
+.tvCardRear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  backface-visibility: hidden;
+  width: 100%;
+  padding: 3.4rem;
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+.tvCardFront {
+  background-color: #12334c;
+}
+
+.tvCardRear {
+  background-color: #f89c4d;
+  transform: rotateY(180deg);
+}
+
+/* ----------------------------------
+Section Info Decoration Blocks
+-------------------------------------- */
+
+.infoContainer {
+  border: 1px solid #eee;
+  padding: 2.4rem 3.8rem;
+}
+
+.infoDiscription {
+  width: 50%;
+  padding: 1.8rem;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.infoIllustration {
+  width: 40%;
+  position: relative;
+}
+
+.infoHeading {
+  font-size: 4.5rem;
+  width: 100%;
+}
+.infoHeading span {
+  color: #f89c4d;
+  opacity: 1;
+}
+
+.infoContent {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.noneTransaction,
+.regTransaction {
+  width: 100%;
+  gap: 2.8rem;
+}
+
+.infoRegIcon {
+  background-color: #555b70;
+  border-radius: 5rem;
+  color: #fff;
+  padding: 2.4rem;
+}
+
+.infoNoneIcon {
+  background-color: #f89c4d;
+  border-radius: 5rem;
+  color: #fff;
+  padding: 2.4rem;
+}
+.noneTransaction h4,
+.regTransaction h4 {
+  width: 100%;
+  color: #555b70;
+  opacity: 1;
+  font-size: 2.8rem;
+}
+
+.noneTransaction h4 {
+  color: #f89c4d;
+}
+.noneTransaction p,
+.regTransaction p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.theInfo {
+  flex-direction: column;
+  gap: 2.4rem;
+}
+/*  Creacting INfo Cycle */
+.infoCycle {
+  display: flex;
+  width: 100%;
+  border: 1px dashed #eee;
+  border-radius: 222rem;
+  overflow: hidden;
+}
+
+.infoCycleLeft,
+.infoCycleRight {
+  width: 50%;
+  padding-bottom: 95%;
+}
+.infoCycleLeft {
+  background-color: #fff;
+}
+
+.infoCycleRight {
+  background-color: #f89c4d;
+}
+
+.infoImage {
+  overflow: hidden;
+  border-radius: 111rem;
+  width: 80%;
+  border: 2.5rem solid #555b70;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.infoImage img {
+  width: 160%;
+  opacity: 1;
+}
+
+/* ----------------------------------
+Feature Section Decoration Blocks
+-------------------------------------- */
+.featureDiscription {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.featureHeading {
+  font-size: 3.5rem;
+}
+.featureDiscription p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2;
+  color: #666;
+}
+
+.featureDiscription .featureBtn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50rem;
+  padding: 1.6rem 2.4rem;
+  width: 45%;
+}
+
+.featureDiscription h4 a:link,
+.featureDiscription h4 a:visited {
+  font-size: 1.6rem;
+}
+
+/* ----------------------------------
+ FOOTER Decoration Blocks
+-------------------------------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  /* background-color: #1c1d1f; */
+  background-color: #12334c;
+  opacity: 0.9;
+  color: #fff;
+  padding: 3.4rem;
+}
+
+.footerStart {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.headingFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headingFooter h2 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+button[type="lang"] {
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0.2rem 3rem 0.2rem 1.2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.footerItems {
+  display: flex;
+  gap: 4.2rem;
+}
+.footerItems ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+
+.footerItems a:link,
+.footerItems a:visited {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footerMiddle {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 1rem 0rem;
+}
+
+.subscribe {
+  font-size: 1.8rem;
+  font-weight: 600;
+  opacity: 1;
+}
+
+form[name="footerForm"] {
+  border: 0.5px solid #d8e5f8;
+}
+
+input[type="footerInput"] {
+  background-color: #d8e5f8;
+  color: #333;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border: none;
+}
+
+button[type="footerSubmit"] {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 0.8rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.copyright {
+  font-size: 1.5rem;
+}
+
+ul.listEnd {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+.listEnd a:link,
+.listEnd a:visited {
+  text-decoration: none;
+  border-left: 2px solid #fff;
+  padding-left: 1rem;
+  color: inherit;
 }

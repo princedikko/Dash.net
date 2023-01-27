@@ -1,0 +1,153 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #ebf2fc; */
+  font-family: "Rubik", sans-serif;
+  font-family: "Mulish", sans-serif;
+  color: #000;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body span,
+body video,
+body img,
+body .icon {
+  opacity: 0.7;
+}
+
+.gn--opcy {
+  opacity: 0.7;
+}
+
+*::placeholder {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #999;
+  opacity: 0.7;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.merg {
+  margin: 3.4rem;
+}
+
+.container {
+  max-width: 130rem;
+  padding: 5.8rem 3.2rem;
+  margin: 0 auto;
+}
+
+.heading--primary {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.heading--secondary {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.golf {
+  display: grid;
+}
+
+.golf2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.golf3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.golf4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.golf5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.golf6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #2f63b2;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.forward,
+.backword {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.8rem;
+  border-radius: 50rem;
+  color: #333;
+  position: absolute;
+  box-shadow: 0px 0px 2rem 0px rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  background-color: #fff;
+  z-index: 9999;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.backword,
+.forward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backword {
+  bottom: 17.2rem;
+  left: 1.4rem;
+}
+
+.forward {
+  bottom: 17.2rem;
+  right: 1.4rem;
+}
+
+.icon {
+  font-size: 2.4rem;
+  /*   
+  stroke: #000;
+  width: 2.4rem;
+  height: 2.4rem; */
+}
+.icon-mini {
+  stroke: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.ff {
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
