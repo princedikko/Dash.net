@@ -6,9 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Component
 import { airteldatabundleinn } from "./databunldeinn";
 
-// Image
-import imgUrlS from "../../images/our-services/ac.jpg";
-
 function AirtelDataEntry(props) {
   return (
     <figure className="acMediumCard flex">

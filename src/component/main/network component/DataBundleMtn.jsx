@@ -4,7 +4,7 @@ import { databundleinn } from "./databunldeinn.js";
 import Mtnflyer from "../../images/hero/heroCard.jpg";
 
 // importing Images
-import imageBravo from "../../images/our-services/mtncad.png";
+import imageBravo from "../../images/our-services/mtncad2.png";
 
 function CreateDataCard(mtn) {
   return (

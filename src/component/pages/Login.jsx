@@ -5,15 +5,18 @@ import SocialMediaIcons from "../footer/SocialMediaIcon";
 
 // Icons
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
+// import VisibilityOffOutlinedIcon from "@mui/icons-material/VisibilityOffOutlined";
 
-import Photo from "./login/logImage/photo.png";
+// Pictures
+import Photo from "./login/logImage/photo2.png";
+
 function Login() {
   return (
     <section className="sectionLogin">
       <div className="loginCont">
         {/* Login Information */}
         <div className="loginInfo">
-          <figure>
+          <figure className="loginImg">
             <img src={Photo} alt="Dash Photo" />
           </figure>
           <h3>Improve your wellbeing, this includes finance and work-life</h3>

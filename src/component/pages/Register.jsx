@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "../Header";
-
+import NavBar from "../header/NavBar";
 function Register() {
   return (
     <section className="sectionRegistration">
-      <Header />
+      <NavBar />
       <br />
       lorem ipsum dolor site
     </section>

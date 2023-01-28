@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../Header";
+import NavBar from "../header/NavBar";
 function Categories() {
   return (
     <section className="sectionCategories">
-      <Header />
+      <NavBar />
       This is Categories Lorem Ipsum
     </section>
   );

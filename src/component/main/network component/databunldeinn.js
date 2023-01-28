@@ -1,7 +1,7 @@
 // Glo Nigeria Images
-import gloImg from "../../images/our-services/glo2.png";
+import gloImg from "../../images/our-services/glo.png";
 // Airtel Images
-import imgUrlE from "../../images/our-services/ac.jpg";
+import imgUrlE from "../../images/our-services/ac2.png";
 const databundleinn = [
   {
     id: 1,
