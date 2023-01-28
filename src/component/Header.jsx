@@ -49,7 +49,7 @@ function Header() {
           />
         </Link>
         <div className="navBarItems">
-          <Link to="./pages/Categories.jsx" className="navItem flex">
+          <Link to="/categories" className="navItem flex">
             {/* <a href="#" className="navItem flex"> */}
             <text>Category</text>
             <MenuIcon fontSize="medium" />

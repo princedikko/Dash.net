@@ -1,0 +1,121 @@
+.loginCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginInfo,
+.containerForm {
+  width: 50%;
+}
+
+.loginInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 2.4rem;
+}
+.loginInfo h3 {
+  font-size: 3.2rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.baseLogs {
+  width: 100%;
+  display: flex;
+
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 6.4rem;
+  padding: 1.2rem;
+}
+
+.baseLogItems {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.containerForm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.loginHeading {
+  font-size: 3.4rem;
+  color: #00678f;
+}
+
+.loginSubHeading {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.loginInfo {
+  background-color: #f7f8fe;
+}
+
+#loginForm {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 6rem 1.2rem;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-top: 6rem;
+}
+
+#loginForm label {
+  display: block;
+}
+
+#loginForm input {
+  border: 1px solid #00acee;
+  border-radius: 1rem;
+  padding: 1.3rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+#loginForm input[type="text"] {
+  width: 100%;
+}
+.logginPassword {
+  width: 100%;
+  border-radius: 0.6rem;
+  position: relative;
+}
+#loginForm input[type="password"] {
+  width: 100%;
+}
+
+.show {
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1ab4f0;
+}
+
+.loginBtn {
+  width: 100%;
+  border: none;
+  border-radius: 22rem;
+  background-color: #00acee;
+  color: #fff;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.icons {
+  padding: 2.3rem;
+}

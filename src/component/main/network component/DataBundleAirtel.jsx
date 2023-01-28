@@ -1,5 +1,12 @@
 import React from "react";
+
+// SwipterJs
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Component
 import { airteldatabundleinn } from "./databunldeinn";
+
+// Image
 import imgUrlS from "../../images/our-services/ac.jpg";
 
 function AirtelDataEntry(props) {
@@ -18,7 +25,7 @@ function AirtelDataEntry(props) {
   );
 }
 
-function CreateGloCard(e) {
+function CreateAirtelCard(e) {
   return <AirtelDataEntry imgUrl={e.Image} heading={e.heading} text={e.text} />;
 }
 
@@ -27,7 +34,7 @@ function DataBundleAirtel() {
     <div className="airtelContainer ff flex ">
       <h2>Airtel Data Plans</h2>
       <figure className="airtelCards flex">
-        {airteldatabundleinn.map(CreateGloCard)}
+        {airteldatabundleinn.map(CreateAirtelCard)}
       </figure>
     </div>
   );

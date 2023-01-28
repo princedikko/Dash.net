@@ -472,16 +472,24 @@ Networks Components Decoration Blocks
 .acBtn:link,
 .acBtn:visited {
   width: 100%;
-  background-color: #dfe5e8;
-  color: #000;
+  background-color: #f9babd;
+  color: #2f0507;
   padding: 0.8rem 1.5rem;
   text-align: center;
+  transition: all 0.3s;
+}
+
+.acBtn:hover,
+.acBtn:active {
+  background-color: #f68d91;
+  color: #fff;
 }
 .airtelContainer h2 {
   width: 100%;
   text-align: center;
   padding: 1.8rem;
-  background-color: palegoldenrod;
+  /* background-color: palegoldenrod; */
+  background-color: #fbd1d3;
 }
 
 .airtelCards {
@@ -953,8 +961,8 @@ button[type="footerSubmit"] {
   gap: 2.4rem;
 }
 
-.footerMediaIcons a:link,
-.footerMediaIcons a:visited {
+.footerMediaIcons Link:link,
+.footerMediaIcons Link:visited {
   transition: all 0.3s;
 }
 
@@ -965,7 +973,7 @@ button[type="footerSubmit"] {
 
 .footerMediaIcons.flex a:link,
 .footerMediaIcons.flex a:visited {
-  color: #fff;
+  color: #00acee;
 }
 .copyRight {
   display: flex;

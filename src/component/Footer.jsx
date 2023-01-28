@@ -1,12 +1,14 @@
-import React from "react";
+// import React from "react";
 import LanguageIcon from "@mui/icons-material/Language";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import TelegramIcon from "@mui/icons-material/Telegram";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+// import TelegramIcon from "@mui/icons-material/Telegram";
 import { fontSize } from "@mui/system";
+import SocialMediaIcons from "./footer/SocialMediaIcon";
+
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
@@ -82,7 +84,8 @@ function Footer() {
           />
           <button type="footerSubmit">Subscribe</button>
         </form>
-        <figure className="footerMediaIcons flex">
+        <SocialMediaIcons />
+        {/* <figure className="footerMediaIcons flex">
           <a href="#">
             <TwitterIcon style={{ fontSize: "2.1rem" }} />
           </a>
@@ -101,7 +104,7 @@ function Footer() {
           <a href="#">
             <TelegramIcon style={{ fontSize: "2.1rem" }} />
           </a>
-        </figure>
+        </figure> */}
       </div>
       <div className="footerEnd">
         <div className="copyRight">
