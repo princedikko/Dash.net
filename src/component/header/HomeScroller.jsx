@@ -1,32 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
+import ViewCompactIcon from "@mui/icons-material/ViewCompact";
 
 function HomeScroller() {
   return (
     <div className="homeScroll ">
       <ul className="flex">
         <li>
-          <a href="#">Dash Overview=</a>
+          <a href="#" className="category flex">
+            <ViewCompactIcon fontSize="large" /> <text>Site Overview</text>
+          </a>
         </li>
         <li>
-          <a href="#">Services we provide</a>
+          <a href="#OurServices">Services we provide</a>
         </li>
         <li>
-          <a href="#">Data Plans</a>
+          <a href="#DataPlan">Data Plans</a>
         </li>
         <li>
-          <a href="#">TV Cable Subscribption</a>
+          <a href="#Airtime">Airtime recharge</a>
+        </li>
+        <li>
+          <a href="#CableTvSubs">TV Cable Subscribption</a>
         </li>
         <li>
           <a href="#">Airtime to Cash</a>
         </li>
-        <li>
-          <a href="#">Airtime recharge</a>
-        </li>
+
         <li>
           <a href="#">Bulk text messages</a>
         </li>
         <li>
-          <a href="#">Utility Bills</a>
+          <a href="#">NEPA Bill</a>
         </li>
       </ul>
     </div>

@@ -1,13 +1,14 @@
 import React from "react";
 
-function GalleryImage() {
+function MainHeading() {
   return (
-    <div className="Section--Gallery ff">
-      <div className="imgGalHead">
+    <div className="Section--mainHead">
+      <div className="mainHeadCont">
         <h2 className="heading--secondary">
-          Let start learning Computer System!
+          Check out our Services:
+          <a href="#"> Transform your life through Dash</a>
         </h2>
-        <p className="galDisc">
+        <p className="mainHeadDisc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam
           voluptatibus dignissimos dicta voluptatum, magnam ducimus consectetur?
         </p>
@@ -16,4 +17,4 @@ function GalleryImage() {
   );
 }
 
-export default GalleryImage;
+export default MainHeading;

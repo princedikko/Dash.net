@@ -1,34 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+//  Pages
+// import business from "./pages/Business";
+// Images
 import Logo from "./images/logo.png";
+
+// Icons
 import SearchIcon from "@mui/icons-material/Search";
 import LanguageIcon from "@mui/icons-material/Language";
+import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import CloseIcon from "@mui/icons-material/Close";
 import HomeScroller from "./header/HomeScroller";
+import MenuIcon from "@mui/icons-material/Menu";
+// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 function Header() {
-  function closeNotf() {
-    alert("i got clicked");
+  // new codes
+  const [ShowNotification, setShowNotification] = useState(true);
+
+  function updatNotification() {
+    setShowNotification(false);
   }
-  return (
-    <header className="header">
+
+  function NotificationBar() {
+    return (
       <div className="notificationBar flex">
         <p>...Welcome to Data Airtime & Subscriptions Hub!</p>
-        <span className="notifClose" onClick={closeNotf}>
-          <CloseIcon fontSize="2.4rem" />
+        <span className="notifClose">
+          <CloseIcon fontSize="2.4rem" onClick={updatNotification} />
         </span>
       </div>
+    );
+  }
+  // end of new codes
+  return (
+    <header className="header">
+      <div className="ntfBar">
+        {ShowNotification ? <NotificationBar /> : null}
+      </div>
       <div className="navBar">
-        <a href="#">
+        <Link to="/">
           <img
             className="navLogo"
             src={Logo}
             alt="Nandic logo, logo, online computer training"
           />
-        </a>
+        </Link>
         <div className="navBarItems">
-          <a href="#" className="navItem">
-            Category
-          </a>
+          <Link to="./pages/Categories.jsx" className="navItem flex">
+            {/* <a href="#" className="navItem flex"> */}
+            <text>Category</text>
+            <MenuIcon fontSize="medium" />
+            {/* </a> */}
+          </Link>
+
           <form action="" className="navForm flex">
             <input
               type="text"
@@ -40,22 +67,30 @@ function Header() {
               <SearchIcon fontSize="large" color="red" />
             </button>
           </form>
-          <a href="#" className="navItem">
-            Course
-          </a>
-          <a href="#" className="navItem">
-            Company
-          </a>
+
+          <Link to="/business" className="navItem flex">
+            <span>Business</span>
+            <span>
+              <KeyboardArrowRightIcon />
+            </span>
+          </Link>
+
+          <Link to="/company" className="navItem flex">
+            <span>Company</span>
+            <span>
+              <KeyboardArrowRightIcon />
+            </span>
+          </Link>
         </div>
         <figure className="navFigure flex">
-          <a href="#" className="navBtn" id="login">
+          <Link to="/login" className="navBtn" id="login">
             Login
-          </a>
-          <a href="#" className="navBtn" id="reg">
+          </Link>
+          <Link to="/register" className="navBtn" id="reg">
             Create Account
-          </a>
-          <a href="#" className="navLang">
-            <LanguageIcon fontSize="large" />
+          </Link>
+          <a href="#" className="navLang ">
+            <NightlightRoundIcon style={{ fontSize: "3.6rem" }} />
           </a>
         </figure>
       </div>

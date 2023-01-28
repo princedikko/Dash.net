@@ -1,3 +1,5 @@
+/* Brand Color =  #00acee */
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -10,13 +12,14 @@ html {
 }
 
 body {
-  /* background-color: #ebf2fc; */
+  /* background-color: #f2f3f7; */
+  background-color: #f5f7f8;
   font-family: "Rubik", sans-serif;
   font-family: "Mulish", sans-serif;
   color: #000;
 }
 
-body p,
+/* body p,
 body h1,
 body h2,
 body h3,
@@ -30,7 +33,7 @@ body .icon {
 
 .gn--opcy {
   opacity: 0.7;
-}
+} */
 
 *::placeholder {
   font-size: 1.3rem;
@@ -150,4 +153,14 @@ a:visited {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.underHover:link,
+.underHover:visited {
+  transition: all 0.3s;
+}
+
+.underHover:hover,
+.underHover:active {
+  box-shadow: inset 0rem -0.15rem 0rem 0rem rgba(47, 99, 178, 0.9);
 }

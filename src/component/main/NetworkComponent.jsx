@@ -7,7 +7,7 @@ import AirtimeComp from "./network component/AirtimeComp";
 
 function NetworkComponent() {
   return (
-    <section className="sectionNetworks merg">
+    <section id="DataPlan" className="sectionNetworks merg">
       <DataBundleMtn />
       <DataBundleGlo />
       <DataBundleEtisalat />

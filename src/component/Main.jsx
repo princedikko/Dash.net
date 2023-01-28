@@ -1,6 +1,5 @@
 import React from "react";
 import HeroSection from "./main/HeroSection";
-import GalleryImage from "./main/GalleryImage";
 import OurServices from "./main/OurServices";
 import NetworkComponent from "./main/NetworkComponent";
 import SectionInfo from "./main/SectionInfo";
@@ -13,7 +12,7 @@ function Main() {
       <div className="heroBackground">
         <HeroSection />
       </div>
-      <GalleryImage />
+
       <OurServices />
       <NetworkComponent />
       <CableTvSub />

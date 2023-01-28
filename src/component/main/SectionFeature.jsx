@@ -1,9 +1,9 @@
 import React from "react";
-
+import featureImg from "../images/feature.jpg";
 function SectionFeature() {
   return (
-    <section className="sectionFeature">
-      <div className="featureContainer merg flex">
+    <section className="sectionFeature ff">
+      <div className="featureContainer">
         <div className="featureDiscription">
           <h2 className="featureHeading">System Development</h2>
           <p>
@@ -15,14 +15,18 @@ function SectionFeature() {
             Explore more
           </a>
           <h4>
-            <a href="#"> Developers and Property Owners &rarr;</a>
+            <a href="#" className="underHover">
+              Developers and Property Owners &rarr;
+            </a>
           </h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit
             eos libero iste ad quos ullam deserunt voluptatum accusamu.
           </p>
         </div>
-        <div className="featureIllustration">Illustrations here</div>
+        <div className="featureIllustration">
+          <img src={featureImg} alt="" />
+        </div>
       </div>
     </section>
   );
