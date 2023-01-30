@@ -164,3 +164,7 @@ a:visited {
 .underHover:active {
   box-shadow: inset 0rem -0.15rem 0rem 0rem rgba(47, 99, 178, 0.9);
 }
+
+button {
+  cursor: pointer;
+}

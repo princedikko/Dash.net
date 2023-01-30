@@ -1,0 +1,125 @@
+.sectionRegistration {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 100vh;
+}
+.registrationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.regForms {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.regLogo {
+  max-width: 12rem;
+}
+
+.HeadingRegistration {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.regSubheading {
+  font-size: 1.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.regForms form {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 1rem;
+
+  font-size: 1.5rem;
+}
+
+.regForms label {
+  /* margin-bottom: 0.6rem; */
+  display: block;
+}
+
+.regForms input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 0.6rem;
+  padding: 0.9rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.namesReg,
+.regPassword {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.regForms input[type="email"] {
+  width: 100%;
+}
+
+.regFormImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 2.4rem;
+}
+.regFormImage img {
+  width: 12rem;
+}
+
+.regFormImage p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.2;
+  color: #999;
+}
+
+.passwordinfo {
+  font-size: 1.2rem;
+}
+
+.agreeCheck {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  /* justify-content: center; */
+  gap: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.agreeCheck input {
+  width: 2.4rem;
+}
+.regSubmit {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-top: 6rem;
+}
+
+.regSubmit button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+}
