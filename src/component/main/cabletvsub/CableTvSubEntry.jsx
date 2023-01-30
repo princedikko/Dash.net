@@ -14,28 +14,30 @@ function CableTvSubEntry(props) {
       <figure className="theTvCard">
         <figure className="tvCardFront">
           <div className="tvcImg">
-            <img src={props.imgUrl} alt="dash.net sub!" />
+            <figure className="tvCardLogo">
+              <img src={props.imgUrl} alt="dash.net sub!" />
+            </figure>
           </div>
           <aside className="tvStation">{props.station}</aside>
           <p className="tvCardDisc">{props.discription}</p>
 
           <div className="tvcBottom flex">
             <div className="tVdaily">
-              <figure className="tvCardIcon">
+              <figure className="tvCardIcon d">
                 <LightModeOutlinedIcon fontSize="large" />
               </figure>
               <span className="tvSubPrice">{props.dPrice}</span>
               <span className="DurationTv">Daily</span>
             </div>
             <div className="tVweekly">
-              <figure className="tvCardIcon">
+              <figure className="tvCardIcon w">
                 <WeekendIcon fontSize="large" />
               </figure>
               <span className="tvSubPrice">{props.wPrice}</span>
               <span className="DurationTv">Weekly</span>
             </div>
             <div className="tVmonthly">
-              <figure className="tvCardIcon">
+              <figure className="tvCardIcon m">
                 <CalendarMonthOutlinedIcon fontSize="large" />
               </figure>
               <span className="tvSubPrice">{props.mPrice}</span>

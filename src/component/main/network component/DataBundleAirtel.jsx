@@ -2,7 +2,8 @@ import React from "react";
 
 // SwipterJs
 import { Swiper, SwiperSlide } from "swiper/react";
-
+// icon
+import MobiledataOffIcon from "@mui/icons-material/MobiledataOff";
 // Component
 import { airteldatabundleinn } from "./databunldeinn";
 
@@ -29,7 +30,9 @@ function CreateAirtelCard(e) {
 function DataBundleAirtel() {
   return (
     <div className="airtelContainer ff flex ">
-      <h2>Airtel Data Plans</h2>
+      <h2>
+        <MobiledataOffIcon fontSize="large" /> &nbsp; Airtel Data Plans
+      </h2>
       <figure className="airtelCards flex">
         {airteldatabundleinn.map(CreateAirtelCard)}
       </figure>

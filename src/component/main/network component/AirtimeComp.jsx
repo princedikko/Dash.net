@@ -2,7 +2,7 @@ import React from "react";
 
 function AirtimeCard(props) {
   return (
-    <figure className="airtimeCard ff">
+    <figure className="airtimeCard">
       <h3>{props.network}</h3>
       <p>{props.price}</p>
     </figure>
@@ -21,7 +21,7 @@ function AirtimeComp() {
         <a href="#">Explore!</a>
       </div>
       <div className="cardsAirtime golf golf2">
-        <AirtimeCard network="MTN" price="5% off" />
+        <AirtimeCard network="MTN" price="5% off" className="dikko" />
         <AirtimeCard network="Glo" price="15% off" />
         <AirtimeCard network="Airtel" price="12% off" />
         <AirtimeCard network="Etisalat" price="0.5% off" />

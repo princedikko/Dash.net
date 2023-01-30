@@ -35,9 +35,8 @@ function CreateDataCard(etisalat) {
 function DataBundleEtisalat() {
   return (
     <div className="NmobileComponent">
-      <figure className="imgComponent">
-        <img src={Mtnflyer} alt="dash data subscription website" />
-        <a href="#" className="btnExplore">
+      <figure className="etiImgComponent">
+        <a href="#" className="etibtnExplore">
           Explore more!
         </a>
       </figure>

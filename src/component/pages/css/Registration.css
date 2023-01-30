@@ -101,13 +101,14 @@
   display: flex;
   align-items: center;
   margin-top: 3rem;
-  /* justify-content: center; */
   gap: 1.2rem;
   font-size: 1.6rem;
 }
 
 .agreeCheck input {
   width: 2.4rem;
+  transform: scale(1.4);
+  cursor: pointer;
 }
 .regSubmit {
   display: flex;

@@ -4,10 +4,10 @@ function DataBundleEntry(props) {
   return (
     <div className="dataCard ">
       <h3>{props.heading}</h3>
-      <div className="cardDisc flex">
-        <p>
-          <span>Period/Duration: </span>
+      <div className="cardDisc">
+        <p className="periodA">
           {props.discription}
+          {/* <span>Period/Duration: </span> */}
         </p>
         <aside className="flex">
           <a href="#" className="dataCardSubscribe">

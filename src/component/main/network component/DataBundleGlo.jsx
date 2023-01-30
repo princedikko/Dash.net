@@ -1,11 +1,12 @@
 import React from "react";
 import { glodatabundleinn } from "./databunldeinn";
+import MobiledataOffIcon from "@mui/icons-material/MobiledataOff";
 
 function GloDataEntry(props) {
   return (
     <a href="#" className="gloCardLink">
       <figure className="mediumCardGlo">
-        <p>Data Bundle Glo</p>
+        <p>30 days plan</p>
         <figure className="gloCardImg">
           <img src={props.imgUrl} alt="" />
         </figure>
@@ -34,7 +35,10 @@ function CreateGloCard(e) {
 function DataBundleGlo() {
   return (
     <div className="gloComponent ff">
-      <h2>This is Glo Service Data Discrition</h2>
+      <h2>
+        <MobiledataOffIcon fontSize="large" /> &nbsp; Glo Data Subscription
+        Plans
+      </h2>
       <figure className="gloDataCards golf golf6">
         {glodatabundleinn.map(CreateGloCard)}
       </figure>

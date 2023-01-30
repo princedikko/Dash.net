@@ -323,6 +323,10 @@ Networks Components Decoration Blocks
   border-radius: 1.2rem;
   overflow: hidden;
 }
+
+.periodA {
+  text-align: left;
+}
 .imgComponent {
   width: 30%;
   background-image: linear-gradient(
@@ -346,10 +350,10 @@ Networks Components Decoration Blocks
 .btnExplore:visited {
   list-style-type: none;
   font-size: 1.5rem;
-  color: #999;
+  color: #332a0c;
   padding: 0.8rem 1.4rem;
   border-radius: 5rem;
-  background-color: #fff;
+  background-color: #ffd43a;
   position: absolute;
   right: 2.5rem;
   bottom: 4.3rem;
@@ -376,6 +380,7 @@ Networks Components Decoration Blocks
   color: #333;
 }
 .cardDisc {
+  display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
@@ -406,17 +411,44 @@ Networks Components Decoration Blocks
   font-size: 1.5rem;
 }
 
+.etiImgComponent {
+  width: 30%;
+  background-image: linear-gradient(to right bottom, #80c98077, #80b3a69f),
+    url("./component/images/dataimg/glonig.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.etibtnExplore:link,
+.etibtnExplore:visited {
+  list-style-type: none;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.8rem 1.4rem;
+  border-radius: 5rem;
+  background-color: #1a765e;
+  position: absolute;
+  right: 2.5rem;
+  bottom: 4.3rem;
+}
+
 .gloComponent h2 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #9eded8;
-  color: #000;
-  font-size: 1.8rem;
-  padding: 1.5rem;
+  /* justify-content: center; */
+  /* background-color: #9eded8; */
+  background-color: #cce9cc;
+  color: #003b00;
+  font-size: 2rem;
+  padding: 1.5rem 3.4rem;
   width: 100%;
 }
 
+.gloComponent h3 {
+  color: #003b00;
+}
 .gloDataCards {
   padding: 2.4rem;
   gap: 2.8rem;
@@ -461,13 +493,14 @@ Networks Components Decoration Blocks
 
 .gloCardTag span {
   width: 50%;
-  background-color: #151b35;
+  background-color: #002c00;
   color: #fff;
 
   padding: 0.3rem 2rem;
 }
 .gloCardTag span:last-child {
-  background-color: #36bbb1;
+  background-color: #cce9cc;
+  color: #000f00;
 }
 
 /* 9Mobile decoration */
@@ -505,6 +538,10 @@ Networks Components Decoration Blocks
 .acMediumCard.flex:active {
   transform: translateY(-1.17rem);
 }
+
+.acMediumCard h3 {
+  color: #47080a;
+}
 .acImage {
   width: 100%;
   background-color: #f7a3a7;
@@ -529,10 +566,12 @@ Networks Components Decoration Blocks
 }
 .airtelContainer h2 {
   width: 100%;
-  text-align: center;
-  padding: 1.8rem;
+  /* text-align: center; */
+  padding: 1.8rem 3.4rem;
   /* background-color: palegoldenrod; */
   background-color: #fbd1d3;
+  color: #47080a;
+  font-size: 2rem;
 }
 
 .airtelCards {
@@ -590,6 +629,10 @@ Networks Components Decoration Blocks
   padding: 1.2rem;
 }
 
+.dikko {
+  background-color: #4d9582;
+}
+
 /* ----------------------------------
  TV Networks Decoration Blocks
 -------------------------------------- */
@@ -630,13 +673,15 @@ Networks Components Decoration Blocks
   padding: 1em;
   height: 100%;
   border-radius: 1.2rem;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
 }
 
 .tvCardFront {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  background-color: #12334c;
+  background-color: #fff;
+  color: #666;
 }
 
 .tvCardRear {
@@ -646,11 +691,7 @@ Networks Components Decoration Blocks
   align-items: center;
   gap: 2.4rem;
   /* background-color: #f89c4d; */
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(78, 235, 196),
-    rgb(29, 139, 7)
-  );
+  background-image: linear-gradient(to right bottom, #b3dfb3, #67a494);
   transform: rotateY(180deg);
 }
 
@@ -669,13 +710,25 @@ Networks Components Decoration Blocks
   text-align: center;
   font-size: 1.8rem;
   font-weight: 0;
-  color: #fff;
+  color: #666;
 }
 
 .tvCardDisc {
   text-align: center;
   font-size: 1.4rem;
   line-height: 1.5;
+}
+
+.tvCardLogo {
+  max-width: 9rem;
+  max-height: 9rem;
+  border-radius: 100%;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+.tvCardLogo img {
+  width: 100%;
 }
 .tvCardBtnCont {
   display: flex;
@@ -709,20 +762,30 @@ Networks Components Decoration Blocks
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  color: #333;
+
+  color: #fff;
   border-radius: 50%;
   /* padding: 1.2rem; */
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
 }
 
+.tvCardIcon.d {
+  background-image: linear-gradient(to right bottom, #f0494f, #1a765e);
+}
+.tvCardIcon.w {
+  background-image: linear-gradient(to right bottom, #e86146, #f7c30b);
+}
+.tvCardIcon.m {
+  background-image: linear-gradient(to right bottom, #f7c30b, #67a494);
+}
 .tvSubPrice {
   margin-top: 1.6rem;
 }
 
 .tvRearPrice {
   font-size: 3.4rem;
+  font-weight: 100;
 }
 
 /* ----------------------------------

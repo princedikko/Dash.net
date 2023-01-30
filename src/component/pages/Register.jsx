@@ -45,7 +45,7 @@ function Register() {
               {/* <label htmlFor="email">Email</label> */}
               <input type="email" placeholder="Email" />
             </div>
-            <input type="tel" placeholder="Phone number" />
+            <input type="number" placeholder="Phone number" />
             <div>
               <div className="regPassword">
                 <div className="logginPassword">

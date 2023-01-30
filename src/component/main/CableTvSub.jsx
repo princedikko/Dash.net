@@ -2,7 +2,7 @@ import React from "react";
 import CableTvSubEntry from "./cabletvsub/CableTvSubEntry";
 import tvCardContent from "./cabletvsub/cabletvinn";
 // Image imports
-import startimeImg from "../images/our-services/StarTimes.jpg";
+import startimeImg from "../images/our-services/startimes.png";
 
 function CreateTvCard(ex) {
   return (

@@ -1,9 +1,10 @@
 import React from "react";
-
+import NavBar from "../header/NavBar";
 function Business() {
   return (
     <section className="sectionBusiness">
       <div className="businessPaga">
+        <NavBar />
         <p>
           Business Lorem Lorem, ipsum dolor sit amet consectetur adipisicing
           elit. Nobis porro consequuntur vero officia cupiditate, inventore
