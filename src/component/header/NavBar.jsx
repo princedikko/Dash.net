@@ -22,7 +22,7 @@ function NavBar() {
         />
       </Link>
       <div className="navBarItems">
-        <Link to="/categories" className="navItem flex">
+        <Link className="navItem flex">
           {/* <a href="#" className="navItem flex"> */}
           <text>Category</text>
           <MenuIcon fontSize="medium" />
