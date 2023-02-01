@@ -13,7 +13,7 @@ import Logobiz from "../images/logo.png";
 //  icons
 import BusinessIcon from "@mui/icons-material/Business";
 import ArchitectureIcon from "@mui/icons-material/Architecture";
-import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import PaidIcon from "@mui/icons-material/Paid";
 import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 // import SearchIcon from "@mui/icons-material/Search";
@@ -28,16 +28,21 @@ function Business() {
   // .........................................
   // PAGINATIONS GOES HERE
   // .........................................
-  const [Categories, setCategories] = React.useState(true);
+  // const [Categories, setCategories] = React.useState(true);
 
-  function updateBizTransaction() {
-    setCategories(false);
-  }
-  // --------------------------------------------------
-  const [Transaction, setTransaction] = React.useState(true);
-  function updatTransaction() {
-    setTransaction(false);
-  }
+  // function updateBizTransaction() {
+  //   setCategories(true);
+  // }
+  // // --------------------------------------------------
+  // const [TransactionPage, setTransaction] = React.useState(false);
+  // function updatTransaction() {
+  //   setTransaction(true);
+  // }
+
+  // function Bravo() {
+  //   return Categories ? <SiteCategories /> : null;
+  // }
+
   return (
     <section className="sectionBusiness">
       <div className="businessPagaContainer">
@@ -56,24 +61,24 @@ function Business() {
               </div>
             </figure>
             <div className="bizAsideLink">
-              <Link style={{ color: "#999" }} onClick={updateBizTransaction}>
+              <Link style={{ color: "#999" }}>
                 <BusinessIcon /> &nbsp; Our Categories
               </Link>
-              <Link style={{ color: "#999" }} onClick={updatTransaction}>
+              <Link style={{ color: "#999" }}>
                 <ArchitectureIcon /> &nbsp; Transaction
               </Link>
               <Link style={{ color: "#999" }}>
-                <PhoneInTalkIcon /> &nbsp; Link 3
+                <PaidIcon /> &nbsp; Pricing
               </Link>
               <Link style={{ color: "#999" }}>
-                <BrightnessMediumIcon /> &nbsp;Link 4
+                <BrightnessMediumIcon /> &nbsp;Affiliation
               </Link>
             </div>
             <div className="bizAsideButtom">
               <span>Company</span>
               <Link style={{ color: "#999" }}>
                 {" "}
-                <PhoneInTalkIcon /> &nbsp; Report a problem
+                <PaidIcon /> &nbsp; Report a problem
               </Link>
               <Link style={{ color: "#999" }}>
                 <BrightnessMediumIcon /> &nbsp; Contact us
@@ -82,7 +87,7 @@ function Business() {
                 <BusinessIcon /> &nbsp; Terms of Service
               </Link>
               <Link style={{ color: "#999" }}>
-                <PhoneInTalkIcon /> &nbsp; Cookies
+                <PaidIcon /> &nbsp; Cookies
               </Link>
             </div>
           </div>
@@ -103,7 +108,10 @@ function Business() {
             </ul>
           </div>
           <div className="bizDisp">
-            {Categories ? <SiteCategories /> : null};
+            <SiteCategories />
+            {/* {Transaction ? <Transaction /> : null}; */}
+            {/* {Categories ? <SiteCategories /> : null}; */}
+            {/* {TransactionPage ? <Transaction /> : <Bravo />}; */}
           </div>
         </div>
       </div>
