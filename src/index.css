@@ -640,17 +640,34 @@ Networks Components Decoration Blocks
 }
 
 .cardsAirtime h3 {
-  font-size: 3rem;
+  font-size: 2.8rem;
+  font-weight: 200;
 }
 
 .cardsAirtime p {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .airtimeCard {
   border-radius: 1.2rem;
   border: 1px solid #eee;
   padding: 1.2rem;
+}
+
+.mtnairtime {
+  background-color: #fff2c4;
+  color: #665517;
+}
+.gloairtime {
+  background-color: #cce9cc;
+  color: #003b00;
+}
+.airairtime {
+  background-color: #fbd1d3;
+  color: #47080a;
+}
+.etiairtime {
+  background-color: #b3d1c9;
 }
 
 .dikko {

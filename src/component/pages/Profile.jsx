@@ -11,10 +11,10 @@ import AffiliateIcon from "@mui/icons-material/CurrencyExchangeOutlined";
 import HelpIcon from "@mui/icons-material/HelpCenterOutlined";
 import SettingsIcon from "@mui/icons-material/SettingsOutlined";
 import FeedbackIcon from "@mui/icons-material/FeedbackOutlined";
-import Lockout from "@mui/icons-material/LockPersonOutlined";
 import TermsIcon from "@mui/icons-material/GavelOutlined";
 import WorkHistoryOutlinedIcon from "@mui/icons-material/WorkHistoryOutlined";
 import NotificationsIcon from "@mui/icons-material/NotificationsActiveOutlined";
+import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 
 function Profile() {
   return (
@@ -62,7 +62,7 @@ function Profile() {
               </ul>
             </div>
             <div className="profileCompLink">
-              <p>Lorem ipsum</p>
+              <p>Dash Hub</p>
               <ul>
                 <li>
                   <Link className="profileLinks ">
@@ -84,7 +84,7 @@ function Profile() {
                 </li>
                 <li>
                   <Link to="/login" className="profileLinks">
-                    <Lockout fontSize="large" />
+                    <PowerSettingsNewIcon fontSize="large" />
                     <span>Logout?</span>
                   </Link>
                 </li>
