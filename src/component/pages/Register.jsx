@@ -4,8 +4,9 @@ import "./css/Registration.css";
 import { Link } from "react-router-dom";
 
 // Images
-import Logo from "../images/logo.png";
+// import Logo from "../images/logo.png";
 import Logo2 from "../images/logo2.png";
+import Logobiz from "../pages/businesspages/dashh.png";
 
 function Register() {
   return (
@@ -13,7 +14,7 @@ function Register() {
       <div className="registrationContainer">
         <div className="regForms">
           <Link to="/">
-            <img src={Logo} alt="Image logo" className="regLogo" />
+            <img src={Logobiz} alt="Image logo" className="regLogo" />
           </Link>
           <h2 className="HeadingRegistration">Create your Dash Account</h2>
           <span className="regSubheading">to continue to Dash</span>
@@ -63,7 +64,7 @@ function Register() {
               </p>
               <div className="agreeCheck">
                 <input type="checkbox" name="agree" id="agree" />
-                <span>i agree to Dash terms & condition</span>
+                <span>I agree to Dash terms & condition</span>
               </div>
             </div>
           </form>

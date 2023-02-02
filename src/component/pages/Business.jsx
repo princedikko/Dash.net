@@ -17,6 +17,7 @@ import ArchitectureIcon from "@mui/icons-material/Architecture";
 import PaidIcon from "@mui/icons-material/Paid";
 import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import AffiliateIcon from "@mui/icons-material/CurrencyExchangeOutlined";
 
 function Business() {
   return (
@@ -56,9 +57,7 @@ function Business() {
             </div>
             <div className="bizAsideButtom">
               <span>Company</span>
-              <Link style={{ color: "#999" }}>
-                <BrightnessMediumIcon /> &nbsp;Become an affiliate
-              </Link>
+
               <Link style={{ color: "#999" }}>
                 {" "}
                 <PaidIcon /> &nbsp; Report a problem
@@ -84,9 +83,10 @@ function Business() {
               <span>Business</span>
             </div>
             <ul className="bizHeadItems">
-              <li>Constents</li>
-              <li>Constents</li>
-              <li>Constents</li>
+              <Link className="profileLinks">
+                <AffiliateIcon fontSize="large" />
+                <span>Affiliation</span>
+              </Link>
               <li>
                 <Link to="/register">Sign up</Link>
               </li>
