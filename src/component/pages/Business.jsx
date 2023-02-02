@@ -16,33 +16,8 @@ import ArchitectureIcon from "@mui/icons-material/Architecture";
 import PaidIcon from "@mui/icons-material/Paid";
 import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-// import SearchIcon from "@mui/icons-material/Search";
-
-// Coddings
-
-// function Testing() {
-//   return <div>In the Name of Allah! Display me</div>;
-// }
 
 function Business() {
-  // .........................................
-  // PAGINATIONS GOES HERE
-  // .........................................
-  // const [Categories, setCategories] = React.useState(true);
-
-  // function updateBizTransaction() {
-  //   setCategories(true);
-  // }
-  // // --------------------------------------------------
-  // const [TransactionPage, setTransaction] = React.useState(false);
-  // function updatTransaction() {
-  //   setTransaction(true);
-  // }
-
-  // function Bravo() {
-  //   return Categories ? <SiteCategories /> : null;
-  // }
-
   return (
     <section className="sectionBusiness">
       <div className="businessPagaContainer">
@@ -55,8 +30,12 @@ function Business() {
                 </Link>
               </div>
               <div>
-                <Link className="bizBtn" style={{ color: "#fff" }}>
-                  Link to
+                <Link
+                  className="bizBtn"
+                  style={{ color: "#fff" }}
+                  to="/profile"
+                >
+                  Profile
                 </Link>
               </div>
             </figure>
@@ -68,14 +47,17 @@ function Business() {
                 <ArchitectureIcon /> &nbsp; Transaction
               </Link>
               <Link style={{ color: "#999" }}>
-                <PaidIcon /> &nbsp; Pricing
+                <BrightnessMediumIcon /> &nbsp; Generate Pins
               </Link>
               <Link style={{ color: "#999" }}>
-                <BrightnessMediumIcon /> &nbsp;Affiliation
+                <PaidIcon /> &nbsp; Pricing
               </Link>
             </div>
             <div className="bizAsideButtom">
               <span>Company</span>
+              <Link style={{ color: "#999" }}>
+                <BrightnessMediumIcon /> &nbsp;Become an affiliate
+              </Link>
               <Link style={{ color: "#999" }}>
                 {" "}
                 <PaidIcon /> &nbsp; Report a problem
@@ -104,14 +86,13 @@ function Business() {
               <li>Constents</li>
               <li>Constents</li>
               <li>Constents</li>
-              <li>Constents</li>
+              <li>
+                <Link to="/register"> Sign up</Link>
+              </li>
             </ul>
           </div>
           <div className="bizDisp">
             <SiteCategories />
-            {/* {Transaction ? <Transaction /> : null}; */}
-            {/* {Categories ? <SiteCategories /> : null}; */}
-            {/* {TransactionPage ? <Transaction /> : <Bravo />}; */}
           </div>
         </div>
       </div>

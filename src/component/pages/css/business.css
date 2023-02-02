@@ -4,11 +4,11 @@
 
 .businessPagaContainer {
   display: grid;
-  grid-template-columns: 1.4fr 8.6fr;
-  background-color: #ddd;
+  grid-template-columns: 1.7fr 8.3fr;
+  background-color: #fff;
 }
 .bizNav {
-  width: 20rem;
+  width: 23rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   position: fixed;
 }
 .bizContent {
-  background-color: transparent;
+  background-color: #fafaff;
 }
 
 .asideheader {
@@ -68,7 +68,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 2.4rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 .bizContent {
@@ -99,12 +99,11 @@
 }
 
 .bizSearchInp {
+  width: 54%;
   display: flex;
   align-items: center;
-  width: 70%;
   border-radius: 22rem;
   background-color: #ddd;
-  width: 70%;
   padding: 0.1rem 1.5rem;
 }
 
@@ -122,14 +121,14 @@ input[type="search"] {
 }
 
 .bizSearch h5 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 .bizNote {
   display: inline-block;
-  background-color: #b3d9b3;
-  color: #001a00;
+  background-color: #cce9cc;
+  color: #016700;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 1.5rem;
   padding: 0.6rem 1.4rem;
 }
