@@ -1,8 +1,8 @@
 import React from "react";
 import { etisalatdatainn } from "./databunldeinn.js";
 import Mtnflyer from "../../images/hero/heroCard.jpg";
-
-import imageNet from "../../images/our-services/test.jpg";
+import { Link } from "react-router-dom";
+import imageNet from "../../images/our-services/eti.jpg";
 
 function DataBundleEntry(props) {
   return (
@@ -10,9 +10,10 @@ function DataBundleEntry(props) {
       <h3>{props.heading}</h3>
       <p>{props.discription}</p>
       <aside className="naijMobileFigure flex ">
-        <a href="#" className="dataCardSubscribe">
-          Subscribe!
-        </a>
+        <div className="dataPriceCont">
+          <div className="dataPrice">$538</div>
+          <Link className="dataCardSubscribe">Subscribe!</Link>
+        </div>
         <figure className="mbImg naijMobileImg">
           <img src={props.imgUrl} alt="dash.net data and subscription site" />
         </figure>

@@ -29,7 +29,7 @@ function Profile() {
                     <img src={Dp} alt="dikko" />
                   </figure>
                   <h2>O.D Othman</h2>
-                  <p>02_Othman</p>
+                  <p>$5467.80</p>
                 </div>
               </Link>
             </div>
@@ -83,7 +83,7 @@ function Profile() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks">
+                  <Link to="/login" className="profileLinks">
                     <Lockout fontSize="large" />
                     <span>Logout?</span>
                   </Link>

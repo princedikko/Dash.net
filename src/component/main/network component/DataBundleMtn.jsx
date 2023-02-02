@@ -4,15 +4,14 @@ import { databundleinn } from "./databunldeinn.js";
 import Mtnflyer from "../../images/hero/heroCard.jpg";
 
 // importing Images
-import imageBravo from "../../images/our-services/mtncad2.png";
 
-function CreateDataCard(mtn) {
+function CreateDataCard(props) {
   return (
     <DataBundleEntry
-      key={mtn.id}
-      heading={mtn.heading}
-      discription={mtn.discription}
-      imgUrl={imageBravo}
+      key={props.id}
+      heading={props.heading}
+      discription={props.discription}
+      imgUrl={props.img}
     />
   );
 }

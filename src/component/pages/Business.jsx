@@ -8,7 +8,8 @@ import Transaction from "./businesspages/Transaction";
 // Dependencies
 import { Link } from "react-router-dom";
 // images
-import Logobiz from "../images/logo.png";
+// import Logobiz from "../images/logo.png";
+import Logobiz from "./businesspages/dashh.png";
 
 //  icons
 import BusinessIcon from "@mui/icons-material/Business";
@@ -87,7 +88,7 @@ function Business() {
               <li>Constents</li>
               <li>Constents</li>
               <li>
-                <Link to="/register"> Sign up</Link>
+                <Link to="/register">Sign up</Link>
               </li>
             </ul>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function DataBundleEntry(props) {
   return (
     <div className="dataCard ">
@@ -10,9 +10,10 @@ function DataBundleEntry(props) {
           {/* <span>Period/Duration: </span> */}
         </p>
         <aside className="flex">
-          <a href="#" className="dataCardSubscribe">
-            Subscribe!
-          </a>
+          <div className="dataPriceCont">
+            <div className="dataPrice">$538</div>
+            <Link className="dataCardSubscribe">Subscribe!</Link>
+          </div>
           <figure className="mbImg">
             <img src={props.imgUrl} alt="dash.net data and subscription site" />
           </figure>

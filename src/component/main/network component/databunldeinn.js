@@ -2,47 +2,59 @@
 import gloImg from "../../images/our-services/glo.png";
 // Airtel Images
 import imgUrlE from "../../images/our-services/ac2.png";
+// Mtn Images
+import Mtnpix from "../../images/our-services/mtn2x.png";
+import Mtnpic from "../../images/our-services/mtn1x.png";
+import Mtnpis from "../../images/our-services/mtncad2.png";
 const databundleinn = [
   {
     id: 1,
     heading: "500.0MB Data",
     discription: "Valid for One month ",
+    img: Mtnpix,
   },
   {
     heading: "1.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpic,
   },
 
   {
     id: 3,
     heading: "1.5GB Data",
     discription: "Valid for One month",
+    img: Mtnpis,
   },
 
   {
     id: 5,
     heading: "2.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpix,
   },
   {
     id: 6,
     heading: "3.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpix,
   },
   {
     id: 7,
     heading: "5.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpix,
   },
   {
     id: 8,
     heading: "10.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpix,
   },
   {
     id: 9,
     heading: "15.0GB Data",
     discription: "Valid for One month",
+    img: Mtnpix,
   },
 ];
 
@@ -153,38 +165,38 @@ const etisalatdatainn = [
   },
   {
     id: 2,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 3,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 4,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 5,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 6,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 7,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
   {
     id: 8,
-    heading: "9Mobile: 1Gb",
-    text: "Duratoin: One Month",
+    heading: "1.0GB Data",
+    text: "Valid till 1 month",
   },
 ];
 

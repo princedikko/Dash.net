@@ -350,13 +350,14 @@ Networks Components Decoration Blocks
 .btnExplore:visited {
   list-style-type: none;
   font-size: 1.5rem;
-  color: #332a0c;
+  color: #fff;
   padding: 0.8rem 1.4rem;
   border-radius: 5rem;
-  background-color: #ffd43a;
+  background-image: linear-gradient(to right bottom, #e86146, #f7c30b);
+  /* background-color: #ffd43a; */
   position: absolute;
   right: 2.5rem;
-  bottom: 4.3rem;
+  bottom: 1.3rem;
 }
 
 .cardComponent {
@@ -388,10 +389,25 @@ Networks Components Decoration Blocks
   gap: 0.8rem;
 }
 
+.dataPriceCont {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.dataPrice {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
 .dataCardSubscribe:link,
 .dataCardSubscribe:visited {
+  color: #997f23;
+  background-color: #ffeeb0;
   font-size: 1.3rem;
   font-weight: 600;
+  border-radius: 1.2rem;
+  text-align: center;
+  padding: 0.3rem 1rem;
 }
 
 .mbImg {
@@ -431,7 +447,7 @@ Networks Components Decoration Blocks
   background-color: #1a765e;
   position: absolute;
   right: 2.5rem;
-  bottom: 4.3rem;
+  bottom: 1.3rem;
 }
 
 .gloComponent h2 {
@@ -515,6 +531,14 @@ Networks Components Decoration Blocks
 .naijMobileFigure {
   gap: 0.8rem;
 }
+
+.naijMobileFigure .dataCardSubscribe:link,
+.naijMobileFigure .dataCardSubscribe:visited {
+  background-image: linear-gradient(to right bottom, #ffea9d, #67a494);
+  background-color: #80c980;
+  color: #002c00;
+}
+
 /* Airtel Data plans */
 .airtelContainer {
   flex-direction: column;

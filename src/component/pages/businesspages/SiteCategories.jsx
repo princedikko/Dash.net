@@ -37,7 +37,7 @@ function SiteCategories() {
           </div>
         </div>
         <div className="bizNote">
-          <p>Othman O. Dikko, a proud Front-End Software engineer</p>
+          <p>Othman O. Dikko, a proud Software engineer</p>
         </div>
       </div>
       <div className="bizCardsCont">
