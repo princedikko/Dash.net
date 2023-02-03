@@ -35,6 +35,10 @@ body .icon {
   opacity: 0.7;
 } */
 
+ul {
+  list-style-type: none;
+}
+
 *::placeholder {
   font-size: 1.3rem;
   font-weight: 200;

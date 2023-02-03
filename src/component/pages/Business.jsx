@@ -42,16 +42,16 @@ function Business() {
               </div>
             </figure>
             <div className="bizAsideLink">
-              <Link style={{ color: "#999" }}>
+              <Link to="/business" style={{ color: "#999" }}>
                 <BusinessIcon /> &nbsp; Our Categories
               </Link>
-              <Link style={{ color: "#999" }}>
+              <Link to="/transaction" style={{ color: "#999" }}>
                 <ArchitectureIcon /> &nbsp; Transaction
               </Link>
-              <Link style={{ color: "#999" }}>
+              <Link to="/generate" style={{ color: "#999" }}>
                 <BrightnessMediumIcon /> &nbsp; Generate Pins
               </Link>
-              <Link style={{ color: "#999" }}>
+              <Link to="/pricing" style={{ color: "#999" }}>
                 <PaidIcon /> &nbsp; Pricing
               </Link>
             </div>

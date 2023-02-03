@@ -23,7 +23,7 @@ function Profile() {
         <aside className="asideProfile">
           <div className="profileAsideCont">
             <div className="profileSideTop">
-              <Link>
+              <Link to="/account">
                 <div className="profileAccount">
                   <figure className="accountImg">
                     <img src={Dp} alt="dikko" />
@@ -36,25 +36,25 @@ function Profile() {
             <div className="profileAsidePrimary">
               <ul>
                 <li>
-                  <Link className="profileLinks active">
+                  <Link to="/profile" className="profileLinks active">
                     <DashBicon fontSize="large" />
                     <span>Dashboard</span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks ">
+                  <Link to="/funding" className="profileLinks ">
                     <BankIcon fontSize="large" />
                     <span>Funding</span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks">
+                  <Link to="/affiliation" className="profileLinks">
                     <AffiliateIcon fontSize="large" />
                     <span>Affiliation</span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks">
+                  <Link to="/help" className="profileLinks">
                     <HelpIcon fontSize="large" />
                     <span>Help</span>
                   </Link>
@@ -65,19 +65,19 @@ function Profile() {
               <p>Dash Hub</p>
               <ul>
                 <li>
-                  <Link className="profileLinks ">
+                  <Link to="/accountsetting" className="profileLinks ">
                     <SettingsIcon fontSize="large" />
                     <span>Settings</span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks ">
+                  <Link to="/feedback" className="profileLinks ">
                     <FeedbackIcon fontSize="large" />
                     <span>Feedback</span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="profileLinks">
+                  <Link to="/company" className="profileLinks">
                     <TermsIcon fontSize="large" />
                     <span>Terms</span>
                   </Link>
@@ -105,7 +105,7 @@ function Profile() {
                 <Link>
                   <NotificationsIcon style={{ fontSize: "2.4rem" }} />
                 </Link>
-                <Link className="profileInfo flex">
+                <Link to="/account" className="profileInfo flex">
                   <span>O.D Othman</span>
                   <figure className="dpIconImg">
                     <img src={Dp} alt="" />
@@ -113,6 +113,49 @@ function Profile() {
                 </Link>
               </div>
             </header>
+            <div className="profileBalance">
+              <ul className="profileBlist">
+                <li className="profileHead">
+                  <h3>
+                    <HelpIcon
+                      fontSize="large"
+                      style={{ color: "#cccccc", fontSize: "3.4rem" }}
+                    />
+                    <span>647</span>
+                  </h3>
+                  <p>Total certificates</p>
+                </li>
+                <li className="profileHead">
+                  <h3>
+                    <HelpIcon
+                      fontSize="large"
+                      style={{ color: "#cccccc", fontSize: "3.4rem" }}
+                    />
+                    <span>34</span>
+                  </h3>
+                  <p>Total Transaction</p>
+                </li>
+                <li className="profileHead">
+                  <h3>
+                    <HelpIcon
+                      fontSize="large"
+                      style={{ color: "#cccccc", fontSize: "3.4rem" }}
+                    />
+                    <span>897</span>
+                  </h3>
+                  <p>Data Purchases</p>
+                </li>
+                <li className="profileHead">
+                  <h3>
+                    <HelpIcon
+                      style={{ color: "#cccccc", fontSize: "3.4rem" }}
+                    />
+                    <span>253</span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit.</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
