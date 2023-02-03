@@ -20,7 +20,7 @@
 .profileAsideCont {
   width: 17%;
   background-color: #fafaff;
-  padding: 4.4rem 1.2rem 1.2rem 2.8rem;
+  padding: 4.4rem 1.2rem 1.2rem 1.2rem;
   position: fixed;
 }
 
@@ -40,13 +40,15 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.4rem;
 }
 
-.profileLinks {
+.profileLinks:link,
+.profileLinks:visited {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  padding: 0.8rem 2.2rem;
 }
 
 .profileAccount {
@@ -80,7 +82,9 @@
 
 .active:link,
 .active:visited {
-  color: red;
+  background-color: #c1d0e8;
+  color: #fff;
+  border-radius: 0.5rem;
 }
 
 .profileNav {
@@ -137,6 +141,7 @@
   align-items: center;
   gap: 1.2rem;
   font-size: 3.4rem;
+  font-weight: 300;
 }
 
 .profileHead p {

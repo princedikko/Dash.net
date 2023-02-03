@@ -25,117 +25,122 @@ import PriceChangeIcon from "@mui/icons-material/PriceChange";
 import ReportProblemIcon from "@mui/icons-material/ReportProblem";
 import GavelIcon from "@mui/icons-material/Gavel";
 import CookieIcon from "@mui/icons-material/Cookie";
+
+function AsideBusiness(props) {
+  return (
+    <div>
+      <figure className="asideheader">
+        <div className="bizLogo">
+          <Link to="/">
+            <img src={Logobiz} alt="dash.net" />
+          </Link>
+        </div>
+        <div>
+          <Link className="bizBtn" style={{ color: "#fff" }} to="/profile">
+            Profile
+          </Link>
+        </div>
+      </figure>
+      <div className="bizAsideLink">
+        <Link to="/business" className={props.classa}>
+          <AppsIcon style={{ fontSize: "1.9rem" }} />{" "}
+          <span> Our Categories</span>
+        </Link>
+        <Link to="/transaction" className={props.classb}>
+          <ReceiptLongIcon style={{ fontSize: "1.9rem" }} />
+          <span>Transaction</span>
+        </Link>
+        <Link to="/generate" className={props.classc}>
+          <FiberPinIcon style={{ fontSize: "1.9rem" }} />
+          <span> Generate Pins</span>
+        </Link>
+        <Link to="/pricing" className={props.classd}>
+          <PaidIcon style={{ fontSize: "1.9rem" }} />
+          <span> Pricing</span>
+        </Link>
+      </div>
+      <div className="bizAsideButtom">
+        <h6>Company</h6>
+        <Link
+          to="/reportproblems"
+          style={{ color: "#999" }}
+          className="sideNavItemBiz"
+        >
+          <ReportProblemIcon style={{ fontSize: "1.5rem" }} />
+          <span>Report a problem</span>
+        </Link>
+        <Link
+          to="/contactcompany"
+          style={{ color: "#999" }}
+          className="sideNavItemBiz"
+        >
+          <ContactSupportIcon style={{ fontSize: "1.7rem" }} />{" "}
+          <span>Contact us</span>
+        </Link>
+        <Link
+          to="/company"
+          style={{ color: "#999" }}
+          className="sideNavItemBiz"
+        >
+          <GavelIcon style={{ fontSize: "1.7rem" }} />{" "}
+          <span> Terms of Service</span>
+        </Link>
+        <Link
+          to="/company"
+          style={{ color: "#999" }}
+          className="sideNavItemBiz"
+        >
+          <CookieIcon style={{ fontSize: "1.7rem" }} /> <span> Cookies</span>
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function BusinessHeader(props) {
+  return (
+    <div className="bizHeader">
+      <div className="headerBiz flex">
+        {" "}
+        {props.icon}
+        <span>{props.heading}</span>
+      </div>
+      <ul className="bizHeadItems">
+        <Link to="/affiliation" className="profileLinks">
+          <AffiliateIcon fontSize="large" />
+          <span>Affiliation</span>
+        </Link>
+        <li>
+          <Link to="/register">Sign up</Link>
+        </li>
+      </ul>
+    </div>
+  );
+}
 function Business() {
   return (
     <section className="sectionBusiness">
       <div className="businessPagaContainer">
         <aside>
           <div className="bizNav">
-            <figure className="asideheader">
-              <div className="bizLogo">
-                <Link to="/">
-                  <img src={Logobiz} alt="dash.net" />
-                </Link>
-              </div>
-              <div>
-                <Link
-                  className="bizBtn"
-                  style={{ color: "#fff" }}
-                  to="/profile"
-                >
-                  Profile
-                </Link>
-              </div>
-            </figure>
-            <div className="bizAsideLink">
-              <Link
-                to="/business"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <AppsIcon style={{ fontSize: "1.9rem" }} /> <span> Our</span>
-                Categories
-              </Link>
-              <Link
-                to="/transaction"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <ReceiptLongIcon style={{ fontSize: "1.9rem" }} />{" "}
-                <span>Transaction</span>
-              </Link>
-              <Link
-                to="/generate"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <FiberPinIcon style={{ fontSize: "1.9rem" }} />{" "}
-                <span> Generate</span>
-                Pins
-              </Link>
-              <Link
-                to="/pricing"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <PaidIcon style={{ fontSize: "1.9rem" }} />{" "}
-                <span> Pricing</span>
-              </Link>
-            </div>
-            <div className="bizAsideButtom">
-              <span>Company</span>
-              <Link
-                to="/reportproblems"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <ReportProblemIcon style={{ fontSize: "1.5rem" }} />{" "}
-                <span>Report</span> a problem
-              </Link>
-              <Link
-                to="/contactcompany"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <ContactSupportIcon style={{ fontSize: "1.7rem" }} />{" "}
-                <span>Contact</span> us
-              </Link>
-              <Link
-                to="/company"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <GavelIcon style={{ fontSize: "1.7rem" }} /> <span> Terms</span>{" "}
-                of Service
-              </Link>
-              <Link
-                to="/company"
-                style={{ color: "#999" }}
-                className="sideNavItemBiz"
-              >
-                <CookieIcon style={{ fontSize: "1.7rem" }} />{" "}
-                <span> Cookies</span>
-              </Link>
-            </div>
+            <AsideBusiness
+              classa="sideNavItemBiz active"
+              classb="sideNavItemBiz "
+              classc="sideNavItemBiz "
+              classd="sideNavItemBiz "
+            />
           </div>
         </aside>
         <div className="bizContent">
-          <div className="bizHeader">
-            <div className="headerBiz flex">
-              <ShoppingCartIcon
-                style={{ fontSize: "3.4rem", color: "#00acee" }}
-              />
-              <span>Business</span>
-            </div>
-            <ul className="bizHeadItems">
-              <Link className="profileLinks">
-                <AffiliateIcon fontSize="large" />
-                <span>Affiliation</span>
-              </Link>
-              <li>
-                <Link to="/register">Sign up</Link>
-              </li>
-            </ul>
+          <div>
+            <BusinessHeader
+              heading="Business New"
+              icon={
+                <ShoppingCartIcon
+                  style={{ fontSize: "3.4rem", color: "#00acee" }}
+                />
+              }
+            />
           </div>
           <div className="bizDisp">
             <SiteCategories />
@@ -147,3 +152,4 @@ function Business() {
 }
 
 export default Business;
+export { AsideBusiness, BusinessHeader };
