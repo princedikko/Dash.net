@@ -13,12 +13,18 @@ import Logobiz from "./businesspages/dashh.png";
 
 //  icons
 import BusinessIcon from "@mui/icons-material/Business";
-import ArchitectureIcon from "@mui/icons-material/Architecture";
 import PaidIcon from "@mui/icons-material/Paid";
-import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
+// import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import AffiliateIcon from "@mui/icons-material/CurrencyExchangeOutlined";
-
+import ContactSupportIcon from "@mui/icons-material/ContactSupport";
+import AppsIcon from "@mui/icons-material/Apps";
+import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
+import FiberPinIcon from "@mui/icons-material/FiberPin";
+import PriceChangeIcon from "@mui/icons-material/PriceChange";
+import ReportProblemIcon from "@mui/icons-material/ReportProblem";
+import GavelIcon from "@mui/icons-material/Gavel";
+import CookieIcon from "@mui/icons-material/Cookie";
 function Business() {
   return (
     <section className="sectionBusiness">
@@ -42,34 +48,73 @@ function Business() {
               </div>
             </figure>
             <div className="bizAsideLink">
-              <Link to="/business" style={{ color: "#999" }}>
-                <BusinessIcon /> &nbsp; Our Categories
+              <Link
+                to="/business"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <AppsIcon style={{ fontSize: "1.9rem" }} /> <span> Our</span>
+                Categories
               </Link>
-              <Link to="/transaction" style={{ color: "#999" }}>
-                <ArchitectureIcon /> &nbsp; Transaction
+              <Link
+                to="/transaction"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <ReceiptLongIcon style={{ fontSize: "1.9rem" }} />{" "}
+                <span>Transaction</span>
               </Link>
-              <Link to="/generate" style={{ color: "#999" }}>
-                <BrightnessMediumIcon /> &nbsp; Generate Pins
+              <Link
+                to="/generate"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <FiberPinIcon style={{ fontSize: "1.9rem" }} />{" "}
+                <span> Generate</span>
+                Pins
               </Link>
-              <Link to="/pricing" style={{ color: "#999" }}>
-                <PaidIcon /> &nbsp; Pricing
+              <Link
+                to="/pricing"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <PaidIcon style={{ fontSize: "1.9rem" }} />{" "}
+                <span> Pricing</span>
               </Link>
             </div>
             <div className="bizAsideButtom">
               <span>Company</span>
-
-              <Link style={{ color: "#999" }}>
-                {" "}
-                <PaidIcon /> &nbsp; Report a problem
+              <Link
+                to="/reportproblems"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <ReportProblemIcon style={{ fontSize: "1.5rem" }} />{" "}
+                <span>Report</span> a problem
               </Link>
-              <Link style={{ color: "#999" }}>
-                <BrightnessMediumIcon /> &nbsp; Contact us
+              <Link
+                to="/contactcompany"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <ContactSupportIcon style={{ fontSize: "1.7rem" }} />{" "}
+                <span>Contact</span> us
               </Link>
-              <Link style={{ color: "#999" }}>
-                <BusinessIcon /> &nbsp; Terms of Service
+              <Link
+                to="/company"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <GavelIcon style={{ fontSize: "1.7rem" }} /> <span> Terms</span>{" "}
+                of Service
               </Link>
-              <Link style={{ color: "#999" }}>
-                <PaidIcon /> &nbsp; Cookies
+              <Link
+                to="/company"
+                style={{ color: "#999" }}
+                className="sideNavItemBiz"
+              >
+                <CookieIcon style={{ fontSize: "1.7rem" }} />{" "}
+                <span> Cookies</span>
               </Link>
             </div>
           </div>

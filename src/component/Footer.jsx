@@ -1,4 +1,6 @@
-// import React from "react";
+import React from "react";
+
+import { Link } from "react-router-dom";
 import LanguageIcon from "@mui/icons-material/Language";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -23,7 +25,7 @@ function Footer() {
         <div className="footerItems">
           <ul>
             <li>
-              <a href="#">About Nandic</a>
+              <Link to="/aboutcompany">About DASH</Link>
             </li>
             <li>
               <a href="#">Career</a>

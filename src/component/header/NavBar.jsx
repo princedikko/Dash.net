@@ -7,8 +7,9 @@ import LanguageIcon from "@mui/icons-material/Language";
 import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import MenuIcon from "@mui/icons-material/Menu";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-// Images
+import HelpIcon from "@mui/icons-material/Help";
 
+// Images
 import Logo from "../images/logo.png";
 
 function NavBar() {
@@ -63,7 +64,7 @@ function NavBar() {
           Create Account
         </Link>
         <a href="#" className="navLang ">
-          <NightlightRoundIcon style={{ fontSize: "3.6rem" }} />
+          <HelpIcon style={{ fontSize: "3.6rem" }} />
         </a>
       </figure>
     </div>

@@ -17,7 +17,9 @@ import FeedBack from "./component/pages/profile/FeedBack";
 import Transaction from "./component/pages/businesspages/Transaction";
 import Generating from "./component/pages/businesspages/Generating";
 import Pricing from "./component/pages/businesspages/Pricing";
-
+import ReportProblems from "./component/company/ReportProblems";
+import AboutCompany from "./component/company/AboutCompany";
+import ContactCompany from "./component/company/ContactCompany";
 function MainClient() {
   return (
     <Routes>
@@ -28,6 +30,9 @@ function MainClient() {
       <Route path="profile" element={<Profile />}></Route>
       <Route path="company" element={<Company />}></Route>
       <Route path="help" element={<Help />}></Route>
+      <Route path="reportproblems" element={<ReportProblems />}></Route>
+      <Route path="contactcompany" element={<ContactCompany />}></Route>
+      <Route path="aboutcompany" element={<AboutCompany />}></Route>
       {/* Profile Pages */}
       <Route path="account" element={<Account />}></Route>
       <Route path="funding" element={<Funding />}></Route>
