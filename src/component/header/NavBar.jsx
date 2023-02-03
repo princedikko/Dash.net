@@ -63,9 +63,9 @@ function NavBar() {
         <Link to="/register" className="navBtn" id="reg">
           Create Account
         </Link>
-        <a href="#" className="navLang ">
+        <Link to="/help" className="navLang ">
           <HelpIcon style={{ fontSize: "3.6rem" }} />
-        </a>
+        </Link>
       </figure>
     </div>
   );
