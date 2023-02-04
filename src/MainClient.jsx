@@ -20,10 +20,13 @@ import Pricing from "./component/pages/businesspages/Pricing";
 import ReportProblems from "./component/company/ReportProblems";
 import AboutCompany from "./component/company/AboutCompany";
 import ContactCompany from "./component/company/ContactCompany";
+import AdminLogin from "./component/pages/AdminLogin";
+import ProfileNotification from "./component/pages/profile/ProfileNotification";
 function MainClient() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
+      <Route path="adminlogin" element={<AdminLogin />}></Route>
       <Route path="login" element={<Login />}></Route>
       <Route path="business" element={<Business />}></Route>
       <Route path="register" element={<Register />}></Route>
@@ -38,6 +41,10 @@ function MainClient() {
       <Route path="funding" element={<Funding />}></Route>
       <Route path="affiliation" element={<Affiliation />}></Route>
       <Route path="accountsetting" element={<AccountSetting />}></Route>
+      <Route
+        path="profilenotification"
+        element={<ProfileNotification />}
+      ></Route>
       <Route path="feedback" element={<FeedBack />}></Route>
       {/* Business pages */}
       <Route path="transaction" element={<Transaction />}></Route>

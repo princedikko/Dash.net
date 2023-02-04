@@ -15,7 +15,9 @@ import TermsIcon from "@mui/icons-material/GavelOutlined";
 import WorkHistoryOutlinedIcon from "@mui/icons-material/WorkHistoryOutlined";
 import NotificationsIcon from "@mui/icons-material/NotificationsActiveOutlined";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
-
+import WifiPasswordIcon from "@mui/icons-material/WifiPassword";
+import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
+import InsightsIcon from "@mui/icons-material/Insights";
 function ProfileSideNav(props) {
   return (
     <div>
@@ -101,7 +103,7 @@ function ProfileHeader() {
         </Link>
       </div>
       <div className="prRighNav flex">
-        <Link>
+        <Link to="/profilenotification">
           <NotificationsIcon style={{ fontSize: "2.4rem" }} />
         </Link>
         <Link to="/account" className="profileInfo flex">
@@ -136,42 +138,43 @@ function Profile() {
               <ul className="profileBlist">
                 <li className="profileHead">
                   <h3>
-                    <HelpIcon
+                    <BankIcon
                       fontSize="large"
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
-                    <span>647</span>
+                    <span>$647</span>
                   </h3>
-                  <p>Total certificates</p>
+                  <p>Account Balance</p>
                 </li>
                 <li className="profileHead">
                   <h3>
-                    <HelpIcon
+                    <WifiPasswordIcon
                       fontSize="large"
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
-                    <span>34</span>
+                    <span>734</span>
                   </h3>
-                  <p>Total Transaction</p>
+                  <p>Total Data Balance</p>
                 </li>
                 <li className="profileHead">
                   <h3>
-                    <HelpIcon
+                    <SignalCellularAltIcon
                       fontSize="large"
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
-                    <span>897</span>
+                    <span>N897</span>
                   </h3>
-                  <p>Data Purchases</p>
+                  <p>Total Airtime Balance</p>
                 </li>
                 <li className="profileHead">
                   <h3>
-                    <HelpIcon
+                    <InsightsIcon
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
+
                     <span>253</span>
                   </h3>
-                  <p>Lorem ipsum dolor sit.</p>
+                  <p>Transaction performed</p>
                 </li>
               </ul>
             </div>

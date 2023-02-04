@@ -1,13 +1,8 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 import LanguageIcon from "@mui/icons-material/Language";
-// import TwitterIcon from "@mui/icons-material/Twitter";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import FacebookIcon from "@mui/icons-material/Facebook";
-// import InstagramIcon from "@mui/icons-material/Instagram";
-// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-// import TelegramIcon from "@mui/icons-material/Telegram";
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
+
 import { fontSize } from "@mui/system";
 import SocialMediaIcons from "./footer/SocialMediaIcon";
 
@@ -18,9 +13,11 @@ function Footer() {
       <div className="footerStart">
         <div className="headingFooter">
           <h2>dash.net</h2>
-          <button className="langbtn" type="lang">
-            <LanguageIcon style={{ fontSize: "3rem" }} /> English
-          </button>
+          <Link to="/adminlogin">
+            <button className="langbtn" type="lang">
+              <SupervisorAccountIcon style={{ fontSize: "3rem" }} /> Admin
+            </button>
+          </Link>
         </div>
         <div className="footerItems">
           <ul>

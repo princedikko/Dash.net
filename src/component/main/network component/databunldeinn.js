@@ -14,6 +14,7 @@ const databundleinn = [
     img: Mtnpix,
   },
   {
+    id: 2,
     heading: "1.0GB Data",
     discription: "Valid for One month",
     img: Mtnpic,
@@ -27,31 +28,31 @@ const databundleinn = [
   },
 
   {
-    id: 5,
+    id: 4,
     heading: "2.0GB Data",
     discription: "Valid for One month",
     img: Mtnpix,
   },
   {
-    id: 6,
+    id: 5,
     heading: "3.0GB Data",
     discription: "Valid for One month",
     img: Mtnpix,
   },
   {
-    id: 7,
+    id: 6,
     heading: "5.0GB Data",
     discription: "Valid for One month",
     img: Mtnpix,
   },
   {
-    id: 8,
+    id: 7,
     heading: "10.0GB Data",
     discription: "Valid for One month",
     img: Mtnpix,
   },
   {
-    id: 9,
+    id: 8,
     heading: "15.0GB Data",
     discription: "Valid for One month",
     img: Mtnpix,
@@ -226,13 +227,13 @@ const airteldatabundleinn = [
     Image: imgUrlE,
   },
   {
-    id: 4,
+    id: 5,
     heading: "10.5GB: N2,520",
     text: "Duration: 30days",
     Image: imgUrlE,
   },
   {
-    id: 4,
+    id: 6,
     heading: "20GB: 3,270",
     text: "Duration: 30days",
     Image: imgUrlE,

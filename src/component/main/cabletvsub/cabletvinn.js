@@ -9,7 +9,7 @@ const tvCardContent = [
     rearPrice: "$548",
   },
   {
-    id: 1,
+    id: 2,
     tvStation: "Startime Nova",
     cardDisc: "lorem lorem asdf asdf ",
     daily: "$343",
@@ -18,7 +18,7 @@ const tvCardContent = [
     rearPrice: "$548",
   },
   {
-    id: 1,
+    id: 3,
     tvStation: "Startime Nova",
     cardDisc: "lorem lorem asdf asdf ",
     daily: "$343",
@@ -27,7 +27,7 @@ const tvCardContent = [
     rearPrice: "$548",
   },
   {
-    id: 1,
+    id: 4,
     tvStation: "Startime Nova",
     cardDisc: "lorem lorem asdf asdf ",
     daily: "$343",
@@ -36,7 +36,7 @@ const tvCardContent = [
     rearPrice: "$548",
   },
   {
-    id: 1,
+    id: 5,
     tvStation: "Startime Nova",
     cardDisc: "lorem lorem asdf asdf ",
     daily: "$343",

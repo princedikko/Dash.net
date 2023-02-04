@@ -7,7 +7,7 @@ function HomeScroller() {
       <ul className="flex">
         <li>
           <a href="#" className="category flex">
-            <ViewCompactIcon fontSize="large" /> <text>Site Overview</text>
+            <ViewCompactIcon fontSize="large" /> <span>Site Overview</span>
           </a>
         </li>
         <li>

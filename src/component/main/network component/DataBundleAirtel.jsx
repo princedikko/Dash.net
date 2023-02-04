@@ -24,7 +24,14 @@ function AirtelDataEntry(props) {
 }
 
 function CreateAirtelCard(e) {
-  return <AirtelDataEntry imgUrl={e.Image} heading={e.heading} text={e.text} />;
+  return (
+    <AirtelDataEntry
+      key={e.id}
+      imgUrl={e.Image}
+      heading={e.heading}
+      text={e.text}
+    />
+  );
 }
 
 function DataBundleAirtel() {

@@ -23,6 +23,7 @@ function GloDataEntry(props) {
 function CreateGloCard(e) {
   return (
     <GloDataEntry
+      key={e.id}
       text={e.text}
       imgUrl={e.imgUrlG}
       heading={e.heading}
