@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./css/profile.css";
 // Images
 import Dp from "./profile/othman.jpg";
+import ProfileBanner from "./profile/picturep/profileBanner.png";
 // Icons
 // import DashBicon from "@mui/icons-material/DashboardOutlined";
 import DashBicon from "@mui/icons-material/PixOutlined";
@@ -18,6 +19,13 @@ import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 import WifiPasswordIcon from "@mui/icons-material/WifiPassword";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import InsightsIcon from "@mui/icons-material/Insights";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import TelegramIcon from "@mui/icons-material/Telegram";
+
 function ProfileSideNav(props) {
   return (
     <div>
@@ -177,6 +185,57 @@ function Profile() {
                   <p>Transaction performed</p>
                 </li>
               </ul>
+            </div>
+          </div>
+          <div className="profileContent">
+            <div className="profileSocialMedia">
+              <h2>Link your social networks</h2>
+              <div className="iconsMediaCont">
+                <Link className="iconsMedia">
+                  <TwitterIcon fontSize="large" />
+                </Link>
+                <Link className="iconsMedia">
+                  <FacebookOutlinedIcon fontSize="large" />
+                </Link>
+                <Link className="iconsMedia">
+                  <LinkedInIcon fontSize="large" />
+                </Link>
+                <Link className="iconsMedia">
+                  <InstagramIcon fontSize="large" />
+                </Link>
+                <Link className="iconsMedia">
+                  <WhatsAppIcon fontSize="large" />
+                </Link>
+                <Link className="iconsMedia">
+                  <TelegramIcon fontSize="large" />
+                </Link>
+              </div>
+            </div>
+            <figure className="profileBanner">
+              <img src={ProfileBanner} alt="dash.net" />
+            </figure>
+          </div>
+          <div className="profileBottom">
+            <hr />
+            <div className="pBtmCard golf golf3">
+              <figure>
+                Card one <br /> Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Officiis voluptatum autem id maxime itaque
+                mollitia architecto, odio unde aspernatur? Fugiat, molestias
+                architecto!
+              </figure>
+              <figure>
+                Card two
+                <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis voluptatum autem id maxime itaque mollitia architecto,
+                odio unde aspernatur? Fugiat, molestias architecto!
+              </figure>
+              <figure>
+                Card three
+                <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis voluptatum autem id maxime itaque mollitia architecto,
+                odio unde aspernatur? Fugiat, molestias architecto!
+              </figure>
             </div>
           </div>
         </div>

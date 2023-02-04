@@ -25,7 +25,7 @@
 }
 
 .profileSliderPage {
-  padding: 4.4rem 4.4rem 1.2rem 2.8rem;
+  padding: 2.4rem 4.4rem 1.2rem 2.8rem;
 }
 
 .profileSideTop {
@@ -146,4 +146,101 @@
 
 .profileHead p {
   color: #b3b3b3;
+}
+
+.profileContent {
+  display: flex;
+}
+.profileSocialMedia {
+  padding: 0rem 3.4rem;
+  width: 50%;
+  background-image: url("../profile/picturep/world.png");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.profileSocialMedia h2 {
+  color: #5982c1;
+  font-weight: 400;
+}
+.profileBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* background-color: yellowgreen; */
+}
+
+.profileBanner img {
+  width: 90%;
+  border-radius: 1.2rem;
+}
+
+.iconsMediaCont {
+  position: relative;
+  display: flex;
+  gap: 1.2rem;
+}
+.iconsMedia:link,
+.iconsMedia:visited {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 3.4rem;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: yellowgreen;
+}
+
+.iconsMedia:nth-child(1) {
+  background-color: #00acee;
+  top: 2rem;
+  left: 2rem;
+}
+.iconsMedia:nth-child(2) {
+  background-color: #5982c1;
+  top: 7rem;
+  left: 11rem;
+}
+.iconsMedia:nth-child(3) {
+  background-color: #82a1d1;
+  top: 4rem;
+  left: 23rem;
+}
+.iconsMedia:nth-child(4) {
+  background-image: linear-gradient(to right bottom, #7a39aa, #d61437, #eac600);
+  top: 14rem;
+  left: 11rem;
+}
+.iconsMedia:nth-child(5) {
+  background-color: #3de45c;
+  top: 11rem;
+  left: 27rem;
+}
+
+.iconsMedia:nth-child(6) {
+  background-color: #2d9ed3;
+  top: 2rem;
+  left: 37rem;
+}
+
+.profileBottom {
+  padding: 0 3.4rem;
+}
+.profileBottom hr {
+  width: 45%;
+  background-color: #ddd;
+  border: none;
+  height: 1px;
+}
+.pBtmCard figure {
+  padding: 2.4rem;
+}
+.pBtmCard figure:nth-child(2) {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
