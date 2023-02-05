@@ -28,7 +28,7 @@ function Footer() {
               <a href="#">Career</a>
             </li>
             <li>
-              <a href="#">Press & Media</a>
+              <Link to="/help">Guidelines</Link>
             </li>
             <li>
               <a href="#">Contact Us</a>

@@ -86,10 +86,6 @@
   border-bottom: 1px solid #eee;
 }
 
-.bizContent {
-  background-color: #f5f7f8;
-}
-
 .headerBiz {
   gap: 1.2rem;
 }
@@ -224,4 +220,37 @@ _____________________________________ */
 
 .sectionPricingPage {
   font-size: 1.5rem;
+}
+
+/* Transaction Cont Decoration Block */
+
+.transCont {
+  gap: 4rem;
+  padding: 3.4rem 4rem;
+}
+.transLink:link,
+.transLink:visited {
+  color: #7d7d80;
+}
+
+.transCardCont,
+.transCardCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  border-radius: 0.8rem;
+  border: 1px solid #e1e1e6;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.transCardLogo {
+  width: 15%;
+}
+
+.transCardLogo img {
+  width: 100%;
 }
