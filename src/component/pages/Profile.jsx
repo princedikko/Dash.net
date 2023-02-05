@@ -162,7 +162,7 @@ function Profile() {
                     />
                     <span>734</span>
                   </h3>
-                  <p>Total Data Balance</p>
+                  <p>Referal Balance</p>
                 </li>
                 <li className="profileHead">
                   <h3>
