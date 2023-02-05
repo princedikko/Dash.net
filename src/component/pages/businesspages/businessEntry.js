@@ -1,8 +1,14 @@
 import Startimes from "../../images/our-services/startimes.png";
 import MtnD from "./logos/mtnd.png";
+import MtnA from "./logos/mtna.jpg";
 import GloD from "./logos/glod.png";
 import ArteLogo from "./logos/airteld.jpg";
+import Aitela from "./logos/aita.jpg";
 import Mbild from "./logos/etid.jpg";
+import Mbila from "./logos/mobile.webp";
+import GOtv from "./logos/gotv.jpg";
+import DsTv from "./logos/dstv.jpg";
+
 const BizCardEntry = [
   {
     logo: MtnD,
@@ -50,7 +56,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: DsTv,
     name: "DSTV ",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -59,7 +65,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: GOtv,
     name: "GoTv Subscription",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -68,7 +74,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: MtnA,
     name: "MTN Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -77,7 +83,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: GloD,
     name: "Glo Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -86,7 +92,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: Aitela,
     name: "Airtel Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -95,7 +101,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Startimes,
+    logo: Mbila,
     name: "9Mobile Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
