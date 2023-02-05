@@ -1,18 +1,17 @@
 import React from "react";
-// important
 import { ProfileHeader, ProfileSideNav } from "../Profile";
 
-function Affiliation() {
+function History() {
   return (
-    <section className="sectionAffiliationPage">
+    <section className="sectionHistory">
       <div className="profilePageContainer">
         <aside className="asideProfile">
           <div className="profileAsideCont">
             <ProfileSideNav
               class1="profileLinks "
               class2="profileLinks "
-              class3="profileLinks active"
-              class4="profileLinks "
+              class3="profileLinks "
+              class4="profileLinks active"
             />
           </div>
         </aside>
@@ -20,7 +19,7 @@ function Affiliation() {
           <div className="profileSliderPage">
             <ProfileHeader />
             <div className="profileBalance">
-              <h2>Become an Affiliate</h2>
+              <h2>Account Activity Log</h2>
             </div>
           </div>
         </div>
@@ -28,4 +27,5 @@ function Affiliation() {
     </section>
   );
 }
-export default Affiliation;
+
+export default History;

@@ -155,8 +155,8 @@ input[type="search"] {
 
 .sideNavItemBiz.active:link,
 .sideNavItemBiz.active:visited {
-  background-color: #c1d0e8;
-  color: #fff;
+  background-color: transparent;
+  color: #2f63b2;
   border-radius: 0.5rem;
   padding: 0.8rem 2.2rem;
 }

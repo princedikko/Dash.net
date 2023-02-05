@@ -22,6 +22,7 @@ import AboutCompany from "./component/company/AboutCompany";
 import ContactCompany from "./component/company/ContactCompany";
 import AdminLogin from "./component/pages/AdminLogin";
 import ProfileNotification from "./component/pages/profile/ProfileNotification";
+import History from "./component/pages/profile/History";
 function MainClient() {
   return (
     <Routes>
@@ -45,6 +46,7 @@ function MainClient() {
         path="profilenotification"
         element={<ProfileNotification />}
       ></Route>
+      <Route path="history" element={<History />}></Route>
       <Route path="feedback" element={<FeedBack />}></Route>
       {/* Business pages */}
       <Route path="transaction" element={<Transaction />}></Route>

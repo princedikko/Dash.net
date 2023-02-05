@@ -25,6 +25,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import HistoryIcon from "@mui/icons-material/History";
 
 function ProfileSideNav(props) {
   return (
@@ -61,9 +62,9 @@ function ProfileSideNav(props) {
             </Link>
           </li>
           <li>
-            <Link to="/help" className={props.class4}>
-              <HelpIcon fontSize="large" />
-              <span>Help</span>
+            <Link to="/history" className={props.class4}>
+              <HistoryIcon fontSize="large" />
+              <span>Activity log</span>
             </Link>
           </li>
         </ul>

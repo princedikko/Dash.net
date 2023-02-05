@@ -193,9 +193,12 @@
   font-size: 3.4rem;
   border-radius: 50%;
   color: #ffffff;
-  background-color: yellowgreen;
+  transition: all 0.3s;
 }
-
+.iconsMedia:hover,
+.iconsMedia:active {
+  opacity: 0.7;
+}
 .iconsMedia:nth-child(1) {
   background-color: #00acee;
   top: 2rem;

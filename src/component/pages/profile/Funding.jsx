@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 // important
 import { ProfileHeader, ProfileSideNav } from "../Profile";
-export { ProfileHeader, ProfileSideNav };
 
 function Funding() {
   return (
