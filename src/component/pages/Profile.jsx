@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import "./css/profile.css";
 // Images
 import Dp from "./profile/othman.jpg";
-import ProfileBanner from "./profile/picturep/profileBanner.png";
+import ProfileBanner from "./profile/picture/profileBanner.png";
 // Icons
 // import DashBicon from "@mui/icons-material/DashboardOutlined";
 import DashBicon from "@mui/icons-material/PixOutlined";
 import BankIcon from "@mui/icons-material/AccountBalanceOutlined";
 import AffiliateIcon from "@mui/icons-material/CurrencyExchangeOutlined";
-import HelpIcon from "@mui/icons-material/HelpCenterOutlined";
+// import HelpIcon from "@mui/icons-material/HelpCenterOutlined";
 import SettingsIcon from "@mui/icons-material/SettingsOutlined";
 import FeedbackIcon from "@mui/icons-material/FeedbackOutlined";
 import TermsIcon from "@mui/icons-material/GavelOutlined";

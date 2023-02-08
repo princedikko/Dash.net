@@ -154,7 +154,7 @@
 .profileSocialMedia {
   padding: 0rem 3.4rem;
   width: 50%;
-  background-image: url("../profile/picturep/world.png");
+  background-image: url("../profile/picture/world.png");
   background-position: center;
   background-size: 75%;
   background-repeat: no-repeat;
@@ -259,7 +259,7 @@
   overflow: hidden;
 }
 .paymentDisplay {
-  padding: 5.4rem;
+  padding: 4.4rem;
 }
 .methods:link,
 .methods:visited {
@@ -302,7 +302,7 @@
 .airtimePay {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 1.4rem;
 }
 .aPheading {
   display: grid;
@@ -320,7 +320,7 @@
 .aPCard {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 1rem;
   padding-top: 2rem;
   border: 1px solid #eee;
   background-color: #fffaf0;
@@ -439,4 +439,41 @@
 
 #debitCardform button {
   font-size: 1.6rem;
+}
+
+#walletPay {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#walletPay select,
+#walletPay input {
+  width: 100%;
+  border: none;
+  background-color: #fafaff;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+#walletPay button {
+  border: none;
+  padding: 1.4rem 2.6rem;
+}
+
+#dashGift {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+#dashGift input,
+#dashGift button {
+  padding: 2.4rem;
+  border: none;
+}
+
+#dashGift input {
+  background-color: #fafaff;
 }

@@ -37,7 +37,7 @@ function AirtimePayment() {
             calls are not being recieved
           </div>
         </figure>
-        <Link className="aPBtn">Complete funding</Link>
+        <Link className="aPBtn">I Complete this transfer</Link>
       </div>
     );
   }

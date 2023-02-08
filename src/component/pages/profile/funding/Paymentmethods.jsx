@@ -4,19 +4,23 @@ import { Link } from "react-router-dom";
 import AirtimePayment from "./methods/AirtimePayment";
 import Banktransfer from "./methods/Banktransfer";
 import DebitCard from "./DebitCard";
+import WalletMethod from "./WalletMethod";
 // icons
 import PaymentsIcon from "@mui/icons-material/Payments";
 import StyleIcon from "@mui/icons-material/Style";
 import SyncAltIcon from "@mui/icons-material/SyncAlt";
 import Wallet from "@mui/icons-material/AccountBalanceWallet";
 import QrCode from "@mui/icons-material/QrCodeScanner";
+import Coupons from "./Coupon";
 function Paymentmethods() {
   return (
     <figure className="paymentMethods golf">
       <div className="paymentDisplay">
-        {/* <AirtimePayment /> */}
+        {/* <DebitCard /> */}
+        <AirtimePayment />
         {/* <Banktransfer /> */}
-        <DebitCard />
+        {/* <WalletMethod /> */}
+        {/* <Coupons /> */}
       </div>
       <div className="paymentItems">
         <ul>
