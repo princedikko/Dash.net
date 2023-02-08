@@ -11,6 +11,7 @@ import HelpIcon from "@mui/icons-material/Help";
 
 // Images
 import Logo from "../images/logo.png";
+import Logo2 from "../images/dashlog.png";
 
 function NavBar() {
   return (
@@ -18,7 +19,7 @@ function NavBar() {
       <Link to="/">
         <img
           className="navLogo"
-          src={Logo}
+          src={Logo2}
           alt="Nandic logo, logo, online computer training"
         />
       </Link>
