@@ -1,52 +1,64 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function Banktransfer() {
+
+function BanktransDe() {
   return (
     <figure className="bankTransfer">
       <div className="aPheading">
-        <span>
-          <form action="php">
-            <select name="aPamount" id="aPAmount">
-              <option>Choose amount</option>
-              <option value="500">NGN 500</option>
-              <option value="500">NGN 1000</option>
-              <option value="500">NGN 1500</option>
-              <option value="500">NGN 2000</option>
-            </select>
-          </form>
-        </span>
+        <span>Dash.net</span>
         <span className="apNetwork">
           <h4>$8,000</h4>
-          <select name="network" id="apNetwork">
-            <option value="">Select network</option>
-            <option value="MTN">Mtn Ng</option>
-            <option value="glo">Glo Ng</option>
-            <option value="airtel">Airtel Ng</option>
-            <option value="9mobile">9Mobile Ng</option>
-          </select>
+          <p>O.D_Othman</p>
         </span>
       </div>
       <p>Transfer Airtime to complete this funding</p>
       <figure className="aPCard">
         <div>
-          <h4>PHONE NUMBER</h4>
-          <p>+23480-694-50870</p>
+          <h4>ACCOUNT NUMBER</h4>
+          <p>017-694-50870</p>
         </div>
         <div>
-          <h4>NETWORK</h4>
-          <p>MTN NG</p>
+          <h4>BANK NAME</h4>
+          <p>ZENITH BANK</p>
         </div>
         <div>
           <h4>BENEFICIARY</h4>
-          <p>Dash Company</p>
+          <p>Dash.net</p>
         </div>
         <div className="aPbottom">
-          the phone number is only valid for transfering/sending airtime. calls
-          are not being recieved
+          the account details is Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Eaque!
         </div>
       </figure>
       <Link className="aPBtn">Complete funding</Link>
     </figure>
+  );
+}
+
+function Banktransfer() {
+  const [transclick, setTransclick] = React.useState(false);
+
+  function updateTransClick() {
+    setTransclick(true);
+  }
+
+  function BanktransEnter() {
+    return (
+      <form action="php" id="enBnk">
+        <p>Please enter amount to fund your account</p>
+        <input type="number" placeholder="Enter amount..." />
+        <Link onClick={updateTransClick}>
+          <button>Proceed to transfer</button>
+        </Link>
+      </form>
+    );
+  }
+
+  return (
+    <div>
+      {transclick ? <BanktransDe /> : <BanktransEnter />}
+      {/* <BanktransEnter /> */}
+    </div>
   );
 }
 

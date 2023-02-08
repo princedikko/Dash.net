@@ -20,24 +20,24 @@ function Paymentmethods() {
         <ul>
           <h6>SELECT PAYMENT OPTION</h6>
           <li>
-            <PaymentsIcon />
-            <Link>Card</Link>
+            <PaymentsIcon className="iconMth" />
+            <Link className="methods">Card</Link>
           </li>
           <li>
-            <StyleIcon />
-            <Link>Pay with Airtime</Link>
+            <StyleIcon className="iconMth" />
+            <Link className="methods">Pay with Airtime</Link>
           </li>
           <li>
-            <SyncAltIcon />
-            <Link>Bank Transfer</Link>
+            <SyncAltIcon className="iconMth" />
+            <Link className="methods">Bank Transfer</Link>
           </li>
           <li>
-            <Wallet />
-            <Link>Wallet</Link>
+            <Wallet className="iconMth" />
+            <Link className="methods">Wallet</Link>
           </li>
           <li>
-            <QrCode />
-            <Link>Coupons</Link>
+            <QrCode className="iconMth" />
+            <Link className="methods">Coupons</Link>
           </li>
         </ul>
       </div>
