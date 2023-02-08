@@ -4,7 +4,7 @@ import "./css/business.css";
 // pages
 // import businessEntry from "./businesspages/businessEntry";
 import SiteCategories from "./businesspages/SiteCategories";
-import Transaction from "./businesspages/Transaction";
+import Transaction from "./businesspages/Transaction.jsx";
 // Dependencies
 import { Link } from "react-router-dom";
 // images

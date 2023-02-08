@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AsideBusiness, BusinessHeader } from "../Business";
+// import transactionLink from "./transactionLink.js";
+
 import myImage from "./logos/mtna.jpg";
 import Nepa from "./logos/download.jpg";
 import Nepas from "./logos/download.png";

@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 // important
 import { ProfileHeader, ProfileSideNav } from "../Profile";
+import Paymentmethods from "./funding/Paymentmethods";
 
 function Funding() {
   return (
@@ -21,7 +23,7 @@ function Funding() {
           <div className="profileSliderPage">
             <ProfileHeader />
             <div className="profileBalance">
-              <h2>Funding</h2>
+              <Paymentmethods />
             </div>
           </div>
         </div>

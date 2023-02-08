@@ -247,3 +247,98 @@
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
+
+/* Funding Payment methods  */
+.paymentMethods {
+  display: grid;
+  grid-template-columns: 3fr 1.3fr;
+  border: 1px solid #eee;
+  border-radius: 1.2rem;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.paymentDisplay {
+  padding: 5.4rem;
+}
+.paymentItems ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  /* align-items: center; */
+  justify-content: flex-start;
+  background-color: #fafaff;
+  padding: 3.4rem;
+  border-radius: 1.2rem;
+}
+
+.paymentItems ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.airtimePay {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.aPheading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.2rem;
+}
+
+.aPCard div {
+  padding: 1.2rem 2.4rem;
+}
+.aPCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: 1px solid #eee;
+  background-color: #fffaf0;
+}
+
+.aPCard h4 {
+  font-size: 1.4rem;
+  color: #999;
+}
+
+.aPbottom {
+  background-color: #ffffff;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.aPBtn:link,
+.aPBtn:visited {
+  background-color: #ffa500;
+  color: #000;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#aPAmount,
+#apNetwork {
+  background-color: #fafafa;
+  color: #999;
+  border: none;
+  padding: 0.4rem;
+}
+
+.apNetwork {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.apNetwork h4 {
+  font-size: 3rem;
+  font-weight: 200;
+}

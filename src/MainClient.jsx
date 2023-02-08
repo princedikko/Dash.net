@@ -14,7 +14,7 @@ import Affiliation from "./component/pages/profile/Affiliation";
 import Help from "./component/company/Help";
 import AccountSetting from "./component/pages/profile/AccountSetting";
 import FeedBack from "./component/pages/profile/FeedBack";
-import Transaction from "./component/pages/businesspages/Transaction";
+import Transaction from "./component/pages/businesspages/Transaction.jsx";
 import Generating from "./component/pages/businesspages/Generating";
 import Pricing from "./component/pages/businesspages/Pricing";
 import ReportProblems from "./component/company/ReportProblems";

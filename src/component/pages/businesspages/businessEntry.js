@@ -138,16 +138,4 @@ const BizCardEntry = [
   },
 ];
 
-{
-  /* <BusinessCard
-                name="MTN Data"
-                discription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaque
-        deserunt!"
-                only="Only"
-                price="$450"
-                btn="Subscribe"
-                logo={Startimes}
-              /> */
-}
-
 export default BizCardEntry;
