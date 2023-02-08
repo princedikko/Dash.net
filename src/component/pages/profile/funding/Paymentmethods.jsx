@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import AirtimePayment from "./methods/AirtimePayment";
 import Banktransfer from "./methods/Banktransfer";
+import DebitCard from "./DebitCard";
 // icons
 import PaymentsIcon from "@mui/icons-material/Payments";
 import StyleIcon from "@mui/icons-material/Style";
@@ -14,7 +15,8 @@ function Paymentmethods() {
     <figure className="paymentMethods golf">
       <div className="paymentDisplay">
         {/* <AirtimePayment /> */}
-        <Banktransfer />
+        {/* <Banktransfer /> */}
+        <DebitCard />
       </div>
       <div className="paymentItems">
         <ul>

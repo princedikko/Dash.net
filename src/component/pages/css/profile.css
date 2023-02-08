@@ -418,3 +418,25 @@
   font-size: 1.5rem;
   padding: 1.2rem;
 }
+
+#debitCardform {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+}
+
+#debitCardform button,
+#debitCardform input {
+  width: 100%;
+  padding: 1.5rem 1.2rem;
+  border: none;
+}
+
+#debitCardform input {
+  background-color: #fafaff;
+}
+
+#debitCardform button {
+  font-size: 1.6rem;
+}
