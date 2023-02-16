@@ -52,7 +52,7 @@ function AsideBusiness(props) {
         </Link>
         <Link to="/generate" className={props.classc}>
           <FiberPinIcon style={{ fontSize: "1.9rem" }} />
-          <span> Generate Pins</span>
+          <span>Print card pin</span>
         </Link>
         <Link to="/pricing" className={props.classd}>
           <PaidIcon style={{ fontSize: "1.9rem" }} />

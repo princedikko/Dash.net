@@ -20,7 +20,7 @@ function Airtime() {
             <form action="#" id="airtimeForm" className="transForm">
                 <div>
                 <label htmlFor="network">Network</label>
-                <select name="airtimeNet" id="">
+                <select name="airtimeNet" id=""required>
                     <option value="">select network</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">Glo NG</option>
@@ -31,11 +31,11 @@ function Airtime() {
 
                 <div>
                     <label htmlFor="airtimeamount">Amount</label>
-                    <input type="number" placeholder="Enter amount..."/>
+                    <input type="number" placeholder="Enter amount..."required/>
                 </div>
                 <div>
                     <label htmlFor="number">Phone Number:</label>
-                    <input type="number" name="airtimeNumber" placeholder="Enter number..."/>
+                    <input type="number" name="airtimeNumber" placeholder="Enter number..."required/>
                 </div>
                 <button>
                     Proceed

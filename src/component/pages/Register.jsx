@@ -27,7 +27,7 @@ function Register() {
                   z
                   name="fname"
                   id="fname"
-                  placeholder="First name"
+                  placeholder="First name" required
                 />
               </div>
 
@@ -37,25 +37,25 @@ function Register() {
                   type="text"
                   name="lname"
                   id="lname"
-                  placeholder="Last name"
+                  placeholder="Last name" required
                 />
               </div>
             </div>
 
             <div>
               {/* <label htmlFor="email">Email</label> */}
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" required/>
             </div>
-            <input type="number" placeholder="Phone number" />
+            <input type="number" placeholder="Phone number" required/>
             <div>
               <div className="regPassword">
                 <div className="logginPassword">
                   {/* <label htmlFor="password">Password</label> */}
-                  <input type="password" placeholder="Password" />
+                  <input type="password" placeholder="Password" required/>
                 </div>
                 <div className="logginPassword">
                   {/* <label htmlFor="password">Comfirm password</label> */}
-                  <input type="password" placeholder="Confirm password" />
+                  <input type="password" placeholder="Confirm password" required/>
                 </div>
               </div>
               <p className="passwordinfo">
@@ -63,18 +63,16 @@ function Register() {
                 symbols
               </p>
               <div className="agreeCheck">
-                <input type="checkbox" name="agree" id="agree" />
+                <input type="checkbox" name="agree" id="agree" required/>
                 <span>I agree to Dash terms & condition</span>
               </div>
             </div>
-          </form>
 
           <div className="regSubmit">
-            <Link to="/login">Sign in instead</Link>
-            <Link>
-              <button type="submit">Create account</button>
-            </Link>
+            <Link to="/login">Sign in instead</Link> 
+              <button type="submit">Create account</button> 
           </div>
+          </form>
         </div>
         <div className="regFormImage">
           <img src={Logo2} alt="dash.net" />

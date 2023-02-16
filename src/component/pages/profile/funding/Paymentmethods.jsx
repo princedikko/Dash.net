@@ -41,12 +41,13 @@ function Paymentmethods() {
 function updateDebitCard(){
   document.querySelector(".methodCard").style.display = "block"; 
 }
-function updateAirtimePay(){
 
-  // document.querySelectorAll(".hidenCont").classList.remove(".hidenCont");
+function updateAirtimePay(){  
+  document.querySelector(".methodAir").classList.remove(".hidenCont");
+  document.querySelectorAll(".hidenCont").style.display = "none";
   document.querySelector(".methodAir").style.display = "block"; 
-  // document.querySelectorAll(".hidenCont").style.display = "none"
 }
+
 function updateBankTrans(){
   document.querySelector(".methodBank").style.display = "block"; 
 }

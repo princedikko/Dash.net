@@ -153,7 +153,7 @@ function Profile() {
                     />
                     <span>$647</span>
                   </h3>
-                  <p>Account Balance</p>
+                  <p>Main Account Bal:</p>
                 </li>
                 <li className="profileHead">
                   <h3>
@@ -163,7 +163,7 @@ function Profile() {
                     />
                     <span>734</span>
                   </h3>
-                  <p>Referal Balance</p>
+                  <p>Affliate Balance</p>
                 </li>
                 <li className="profileHead">
                   <h3>
@@ -173,7 +173,7 @@ function Profile() {
                     />
                     <span>N897</span>
                   </h3>
-                  <p>Total Airtime Balance</p>
+                  <p>Dash Account</p>
                 </li>
                 <li className="profileHead">
                   <h3>
@@ -183,7 +183,7 @@ function Profile() {
 
                     <span>253</span>
                   </h3>
-                  <p>Transaction performed</p>
+                  <p>Total investment</p>
                 </li>
               </ul>
             </div>

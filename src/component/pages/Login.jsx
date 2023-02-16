@@ -43,17 +43,15 @@ function Login() {
             <span className="loginSubHeading">Continue where you left off</span>
             <div>
               <label htmlFor="email">Email</label>
-              <input type="text" placeholder="Email or phone number" />
+              <input type="email" placeholder="Email or phone number" required/>
             </div>
             <div>
               <label htmlFor="password">Password</label>
               <div className="logginPassword">
-                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Password" required/>
                 <VisibilityOutlinedIcon fontSize="large" className="show" />
-              </div>
-              <Link>
+              </div> 
                 <button className="loginBtn">Login</button>
-              </Link>
             </div>
             <p>
               Don't have an account yet?{" "}

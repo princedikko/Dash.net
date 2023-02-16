@@ -1,6 +1,10 @@
 import React from "react";
+// Components
+import AffiliationInfo from "../../company/AffiliationInfo";
 // important
 import { ProfileHeader, ProfileSideNav } from "../Profile";
+
+
 
 function Affiliation() {
   return (
@@ -19,8 +23,8 @@ function Affiliation() {
         <div className="prifleCont">
           <div className="profileSliderPage">
             <ProfileHeader />
-            <div className="profileBalance">
-              <h2>Become an Affiliate</h2>
+            <div className="profileBalance"> 
+              <AffiliationInfo />
             </div>
           </div>
         </div>

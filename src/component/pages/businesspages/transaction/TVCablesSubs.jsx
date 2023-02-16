@@ -20,7 +20,7 @@ function TVCableSubs() {
             <form action="#" id="dataForm" className="transForm">
                 <div>
                 <label htmlFor="service">Service</label>
-                <select name="dataNet" id="">
+                <select name="dataNet" id="" required>
                     <option value="">select option</option>
                     <option value="startimes">Startimes</option>
                     <option value="gotv">GoTv</option>
@@ -30,7 +30,7 @@ function TVCableSubs() {
 
                 <div>
                     <label htmlFor="tvType">Network Type:</label>
-                    <select name="tvNetType" id="tvSubsType">
+                    <select name="tvNetType" id="tvSubsType" required>
                         <option value="">choose an option</option>
                         <option value="nova">Startimes Nova</option>
                         <option value="basic">Startimes Basic [Antenna]</option>
@@ -41,7 +41,7 @@ function TVCableSubs() {
                 </div>
                 <div>
                     <label htmlFor="tvDuratoin">Duration:</label>
-                    <select name="tvNetType" id="tvSubsType">
+                    <select name="tvNetType" id="tvSubsType" required>
                         <option value=""></option>
                         <option value="day">One Day</option>
                         <option value="week">One Week</option>
@@ -51,7 +51,7 @@ function TVCableSubs() {
                 </div>
                 <div>
                     <label htmlFor="smartcard">Smart-Card Number:</label>
-                    <input type="number" name="dataNumber" placeholder="Enter number..."/>
+                    <input type="number" name="dataNumber" placeholder="Enter number..." required/>
                 </div>
                 <button>
                     Purchase data

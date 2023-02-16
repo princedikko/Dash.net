@@ -37,6 +37,7 @@
   gap: 0.5rem;
   padding: 0.8rem 2.2rem;
 }
+
 .bizLogo img {
   width: 60%;
   margin-bottom: 2.4rem;
@@ -45,7 +46,7 @@
 .bizBtn {
   display: block;
   padding: 1.2rem 2.4rem;
-  background-color: #00acee;
+  background-color: #2f63b2;
   color: #fff;
   border-radius: 0.8rem;
   text-align: center;
@@ -239,6 +240,7 @@ _____________________________________ */
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  background-color: #fff;
   padding: 1rem;
   padding-right: 2rem;
   border-radius: 0.8rem;
@@ -334,4 +336,203 @@ _____________________________________ */
 .bulkssPage,
 .dataPage {
   display: none;
+}
+
+
+/* PriceConvertAirtime to Cash */
+.bizDisp {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+  padding: 2.4rem;
+
+}
+.priceConvertCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* margin: 2.4rem; */
+  grid-gap: 1.2rem;
+}
+
+
+.convertCard {
+display: flex;
+flex-direction: column;
+gap: .8rem;
+  background-color: #ffffff;
+  padding: 1.8rem 1.2rem;
+  box-shadow: 3px 3px 14px -7px rgb(0 0 0 / 30%);
+}
+
+.secondRow {
+  display: flex;
+  gap: 3.4rem;
+}
+.convertCard .flex {
+  gap: 1.2rem;
+}
+.percent {
+  font-size: 2.8rem;
+  font-weight: 200;
+}
+
+
+.percentBarCont {
+  background-color: #e7e4f0;
+  border-radius: 33rem;
+  overflow: hidden;
+  font-size: .1rem;
+
+}
+
+.percentBar {
+  background-color: #5982c1;
+  width: 85%;
+  border-radius: 33rem;
+  padding: .2rem;
+}
+
+.bulksPriceCont {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1.4rem;
+}
+
+
+.bulksPrc {
+  width: 35%;
+  display: flex;
+}
+
+.bulksPriceCont table {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.bulksPriceCont tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.bulksPriceCont th,
+.bulksPriceCont tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between; 
+text-align: left;
+  gap: 1.2rem;
+}
+
+/* .bulksPriceCont td {
+  border: 1px solid red;
+} */
+
+
+/* Startimes Conts decoration block */
+
+.startimePrCont {
+  width: 65%;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.staPriceCont {
+  width: 100%;
+  padding: 2.4rem;
+}
+
+.staPriceCont table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.staPriceCont tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.staPriceCont tr,
+.staPriceCont thead { 
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr ;
+  /* display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: space-between; */
+  
+}
+
+/* third Row */
+
+.thirdRow {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.dstvCard {
+  width: 50%;
+  background-color: #fff;
+  padding: 2.4rem;
+}
+
+.dstvCard thead,
+.dstvCard tbody tr {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1fr 1fr;
+  text-align: left;
+  grid-gap: 1.4rem;
+}
+
+.dstvCard tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.GotvCard table {
+  width: 100%;
+}
+
+/* DATA PRICING DECORATION BLOCKS */
+.mtnDataPriceCont, .gloDataPriceCont, .airtelDataPriceCont, .etisalatDataPriceCont{
+  width: 65%;
+}
+
+.mtnComponentC ,
+.gloComponentC ,
+.airtelComponentC ,
+.mobileComponentC {
+  display: flex;
+  gap: 3.4rem;
+
+}
+
+.dataPricingTable {
+  background-color: #fff;
+  width: 100%;
+}
+
+
+.dataPricingTable tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.dataPricingTable thead,
+.dataPricingTable tbody tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: .8rem;
+  text-align: left;
+}
+
+/* Airtime Price Decoration Block */
+
+.AirtimePriceCard {
+  max-width: 31.5%;
+  background-color: #fff;
 }

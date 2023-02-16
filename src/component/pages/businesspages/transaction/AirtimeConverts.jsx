@@ -29,7 +29,7 @@ function ConvertingAirtime() {
             <form action="#" id="dataForm" className="transForm">
                 <div>
                 <label htmlFor="convertNetwork">Network Type</label>
-                <select name="airToCash" id="airToCash">
+                <select name="airToCash" id="airToCash" required>
                     <option value="">select option</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">GLO NG</option>
@@ -40,7 +40,7 @@ function ConvertingAirtime() {
 
                 <div>
                     <label htmlFor="amount">Airtime amount:</label>
-                    <input type="number" placeholder="please enter amount.." />
+                    <input type="number" placeholder="please enter amount.."  required/>
                 </div>
                 
                 <div>

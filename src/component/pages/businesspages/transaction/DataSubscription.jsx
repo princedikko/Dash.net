@@ -19,7 +19,7 @@ function DataSubscription() {
             <form action="#" id="dataForm" className="transForm">
                 <div>
                 <label htmlFor="network">Network</label>
-                <select name="dataNet" id="">
+                <select name="dataNet" id="" required>
                     <option value="">select network</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">Glo NG</option>
@@ -30,15 +30,15 @@ function DataSubscription() {
 
                 <div>
                     <label htmlFor="dataplan">Data Plan</label>
-                    <select name="dataplan" id="dataplan">
+                    <select name="dataplan" id="dataplan" required>
                         <option value="">choose data plan</option>
                         <option value="mb">500MB</option>
                         <option value="mb">1.00 GB</option>
                     </select>
                 </div>
                 <div>
-                    <label htmlFor="number">Phone Number:</label>
-                    <input type="number" name="dataNumber" placeholder="Enter number..."/>
+                    <label htmlFor="number" >Phone Number:</label>
+                    <input type="number" name="dataNumber" placeholder="Enter number..." required/>
                 </div>
                 <button>
                     Purchase data

@@ -20,7 +20,7 @@ function NepaBill() {
             <form action="#" id="dataForm" className="transForm">
                 <div>
                 <label htmlFor="location">Electric Location</label>
-                <select name="dataNet" id="">
+                <select name="dataNet" id="" required>
                     <option value="">select type</option>
                     <option value="abuja">Abuja Electricity</option>
                     <option value="kaduna">Kaduna Electricity</option>
@@ -31,7 +31,7 @@ function NepaBill() {
 
                 <div>
                     <label htmlFor="dataplan">Bill Type</label>
-                    <select name="dataplan" id="dataplan">
+                    <select name="dataplan" id="dataplan" required>
                         <option value="">select type</option>
                         <option value="prepaid">Prepaid</option>
                         <option value="postpaid">Postpaid</option>
@@ -39,7 +39,7 @@ function NepaBill() {
                 </div>
                 <div>
                     <label htmlFor="number">Amount:</label>
-                    <input type="number" name="dataNumber" placeholder="Enter amount..."/>
+                    <input type="number" name="dataNumber" placeholder="Enter amount..." required/>
                 </div>
                 <button>
                     Purchase data

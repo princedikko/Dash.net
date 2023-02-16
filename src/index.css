@@ -1,5 +1,8 @@
 /* Header Decoration Blocks */
-
+.header {
+  /* opacity: 0.7; */
+  box-shadow: 1px 3px 20px -4px rgb(0 0 0 / 30%);
+}
 .notificationBar {
   background-color: #f0efad;
   /* background-color: #f5cb8a; */
@@ -53,7 +56,7 @@
 .navForm {
   display: inline-block;
   width: 50rem;
-  border: 1px solid #33bdf1;
+  /* border: 1px solid #2f63b2; */
   border-radius: 50rem;
   background-color: #f5f5f5;
   overflow: hidden;
@@ -87,7 +90,7 @@ button[type="navSearch"] {
   text-decoration: none;
   padding: 0.8rem 1.9rem;
   /* background-color: #2f63b2; */
-  background-color: #00acee;
+  background-color: #2f63b2;
   color: #fff;
   transition: all 0.3s;
 }
@@ -95,30 +98,32 @@ button[type="navSearch"] {
 .navBtn:first-child:link,
 .navBtn:first-child:visited {
   background-color: transparent;
-  box-shadow: inset 0px 0px 0px 2px #00acee;
+  box-shadow: inset 0px 0px 0px 2px #2f63b2;
   /* color: #2f63b2; */
-  color: #00678f;
+  color: #2f63b2;
 }
 
 #login:hover,
 #login:active {
   color: #fff;
   opacity: 0.8;
-  background-color: #00acee;
+  background-color: #2f63b2;
 }
 
 #reg:hover,
 #reg:active {
-  color: #00678f;
+  color: #2f63b2;
   /* opacity: 0.8; */
   background-color: transparent;
-  box-shadow: inset 0rem 0rem 0rem 0.2rem #00acee;
+  box-shadow: inset 0rem 0rem 0rem 0.2rem #2f63b2;
 }
 
 .homeScroll {
-  background-color: #00acee;
+  background-color: #fff;
   padding: 1.2rem;
   font-size: 1.5rem;
+  /* border-top: 1px solid #2f63b2; */
+  /* border-bottom: 1px solid #2f63b2; */
 }
 
 .homeScroll ul {
@@ -129,12 +134,12 @@ button[type="navSearch"] {
 
 .homeScroll a:link,
 .homeScroll a:visited {
-  color: #fff;
+  color: #666;
   text-decoration: none;
 }
 
 .navFigure.flex .navLang {
-  color: #00acee;
+  color: #2f63b2;
   transition: all 0.3s;
 }
 
@@ -193,7 +198,7 @@ Hero Decoration Blocks
   top: 50%;
   transform: translateY(-50%);
   background-color: #fff;
-  color: #00acee;
+  color: #2f63b2;
   z-index: 9999;
   border: 1px solid #ddd;
   opacity: 0.9;

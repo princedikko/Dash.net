@@ -23,6 +23,7 @@ import ContactCompany from "./component/company/ContactCompany";
 import AdminLogin from "./component/pages/AdminLogin";
 import ProfileNotification from "./component/pages/profile/ProfileNotification";
 import History from "./component/pages/profile/History";
+import AffiliationInfo from "./component/company/AffiliationInfo";
 function MainClient() {
   return (
     <Routes>
@@ -33,6 +34,7 @@ function MainClient() {
       <Route path="register" element={<Register />}></Route>
       <Route path="profile" element={<Profile />}></Route>
       <Route path="company" element={<Company />}></Route>
+      <Route path="affiliationinfo" element={<AffiliationInfo />}></Route>
       <Route path="help" element={<Help />}></Route>
       <Route path="reportproblems" element={<ReportProblems />}></Route>
       <Route path="contactcompany" element={<ContactCompany />}></Route>

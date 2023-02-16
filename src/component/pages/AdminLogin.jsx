@@ -39,17 +39,15 @@ function AdminLogin() {
             </span>
             <div>
               <label htmlFor="email">Email</label>
-              <input type="text" placeholder="Email address..." />
+              <input type="email" placeholder="Email address..." required/>
             </div>
             <div>
               <label htmlFor="password">Password</label>
               <div className="logginPassword">
-                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Password" required/>
                 <VisibilityOutlinedIcon fontSize="large" className="show" />
-              </div>
-              <Link>
-                <button className="loginBtn">Login</button>
-              </Link>
+              </div> 
+                <button className="loginBtn">Login</button> 
             </div>
             <p>Keep your code safe </p>
           </form>
