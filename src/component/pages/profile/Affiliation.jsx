@@ -25,6 +25,7 @@ function Affiliation() {
             <ProfileHeader />
             <div className="profileBalance"> 
               <AffiliationInfo />
+              <p>My Name Is Mijin Nana</p>
             </div>
           </div>
         </div>
