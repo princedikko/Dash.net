@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AsideBusiness, BusinessHeader } from "../Business";
+import NepaBill from './transaction/NepaBill'
+
+
 
 function Generating() {
   return (
@@ -21,7 +24,8 @@ function Generating() {
             <BusinessHeader heading="Generate Pins" />
           </div>
           <div className="bizDisp">
-            <h2>Generate Pin here</h2>
+            {/* <h2>Generate Pin here</h2> */}
+            <NepaBill />
           </div>
         </div>
       </div>

@@ -477,3 +477,11 @@
 #dashGift input {
   background-color: #fafaff;
 }
+
+
+/* Payment Methods Decoration blocks */
+
+.hidenCont
+{
+  display: none;
+}
