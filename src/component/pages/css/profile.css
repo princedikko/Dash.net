@@ -539,6 +539,7 @@ div.activityLogCont tbody tr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.4rem  ;
+  row-gap: 7.5rem;
   margin-top: 3.4rem;
   
 }
@@ -564,4 +565,16 @@ div.activityLogCont tbody tr {
 .affiStepOne img {
   width: 50%;
 
+}
+
+.stepDiscription p {
+  line-height: 1.5;
+}
+
+
+.affiStepOne figure {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end;
+  text-align: center; */
 }
