@@ -1,6 +1,5 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
-import "../profileScript.js";
+import { Link } from "react-router-dom"; 
 // mini Pages
 import AirtimePayment from "./methods/AirtimePayment";
 import Banktransfer from "./methods/Banktransfer";
@@ -16,11 +15,13 @@ import Wallet from "@mui/icons-material/AccountBalanceWallet";
 import QrCode from "@mui/icons-material/QrCodeScanner";
 
 function Paymentmethods() {
-  // const HidenContainers = document.querySelectorAll(".hidenCont").style.display = "none";
+// const HidenContainers = document.querySelectorAll(".hidenCont").style.display = "none";
   
-const [paymentMethod, setPaymentMethod] = useState(" ");
-const togglePaymentMethod = function() {
+const [paymentMethod, setPaymentMethod] = useState("onDisplay");
+const togglePaymentMethod = () => {
   switch (paymentMethod) {
+    case "onDisplay": 
+    return <DisplayMethods className="active" />;
     case "alpha":
       return <DebitCard />;
     case "bravo":
@@ -31,12 +32,19 @@ const togglePaymentMethod = function() {
     return <WalletMethod />;
     case "golf": 
     return <Coupons />;
-    
     default:
       return null;
   }
 }
 
+
+function DisplayMethods() {
+  return (
+    <div>
+      <p>Please choose your payment option</p>
+    </div>
+  )
+}
   return (
     <figure className="paymentMethods golf">
       <div className="paymentDisplay"> 
