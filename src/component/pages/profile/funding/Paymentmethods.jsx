@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "../profileScript.js";
 // mini Pages
@@ -16,98 +16,61 @@ import Wallet from "@mui/icons-material/AccountBalanceWallet";
 import QrCode from "@mui/icons-material/QrCodeScanner";
 
 function Paymentmethods() {
-
   // const HidenContainers = document.querySelectorAll(".hidenCont").style.display = "none";
-
-
-
-
-  const [debitCard, setDebitCard] = React.useState(false);
-  function updateDebitCard() {
-    setDebitCard(true);
+  
+const [paymentMethod, setPaymentMethod] = useState(" ");
+const togglePaymentMethod = function() {
+  switch (paymentMethod) {
+    case "alpha":
+      return <DebitCard />;
+    case "bravo":
+      return <AirtimePayment />;
+    case "charlie": 
+    return <Banktransfer />;
+    case "delta":
+    return <WalletMethod />;
+    case "golf": 
+    return <Coupons />;
+    
+    default:
+      return null;
   }
-
-  const [airtimePay, setAirtimePay] = React.useState(false);
-  function updateAirtimePay() {
-    setAirtimePay(true);
-  }
-
-  const [bankTrans, setBankTrans] = React.useState(false);
-
-  function updateBankTrans() {
-    setBankTrans(true);
-  }
-
-function updateDebitCard(){
-  document.querySelector(".methodCard").style.display = "block"; 
-}
-
-function updateAirtimePay(){  
-  document.querySelector(".methodAir").classList.remove(".hidenCont");
-  document.querySelectorAll(".hidenCont").style.display = "none";
-  document.querySelector(".methodAir").style.display = "block"; 
-}
-
-function updateBankTrans(){
-  document.querySelector(".methodBank").style.display = "block"; 
-}
-function updateWalllet(){
-  document.querySelector(".methodWallet").style.display = "block"; 
-}
-function updateCoupon(){
-  document.querySelector(".methodCoupon").style.display = "block"; 
-
 }
 
   return (
     <figure className="paymentMethods golf">
-      <div className="paymentDisplay">
-
-       <div className="methodCard hidenCont">
-        <DebitCard />
-       </div>
-       <div className="methodAir hidenCont">
-       <AirtimePayment />
-       </div>
-        
-       <div className="methodBank hidenCont">
-       <Banktransfer />
-       </div>
-       <div className="methodWallet hidenCont">
-       <WalletMethod />
-       </div>
-       <div className="methodCoupon hidenCont">
-       <Coupons /> 
-       </div>
+      <div className="paymentDisplay"> 
+      {togglePaymentMethod()}
+       
       </div>
       <div className="paymentItems ">
         <ul>
           <h6>SELECT PAYMENT OPTION</h6>
-            <Link className="methods" onClick={updateDebitCard}>
+            <Link className="methods" onClick={() => setPaymentMethod("alpha")}>
           <li>
             <PaymentsIcon className="iconMth" />
               Card
           </li>
             </Link>
-            <Link className="methods" onClick={updateAirtimePay}>
+            <Link className="methods" onClick={() => setPaymentMethod("bravo")}>
           <li>
             <StyleIcon className="iconMth" />
               Pay with Airtime
           </li>
             </Link>
-            <Link className="methods" onClick={updateBankTrans}>
+            <Link className="methods" onClick={() => setPaymentMethod("charlie")}>
           <li>
             <SyncAltIcon className="iconMth" />
               Bank Transfer
           </li>
             </Link>
-            <Link className="methods" onClick={updateWalllet}>
+            <Link className="methods" onClick={() => setPaymentMethod("delta")}>
           <li>
             <Wallet className="iconMth" />
               Wallet
           </li>
             </Link>
-            <Link className="methods" onClick={updateCoupon}>
+            <Link className="methods" onClick={() => setPaymentMethod("golf")}>
           <li>
             <QrCode className="iconMth" />
               Coupons

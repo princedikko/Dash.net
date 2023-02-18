@@ -523,7 +523,6 @@ div.activityLogCont tbody tr {
   width: 90%;
   border-radius: 1.2rem;
   border: 1px solid #ddd;
-  padding: 3.4rem;
   box-shadow: 1px 1px 20px 1px rgb(0 0 0 / 30%);
 }
 
@@ -532,8 +531,18 @@ div.activityLogCont tbody tr {
   flex-direction: column;
   gap: 2rem;
   line-height: 1.5;
+  padding: 3.4rem;
+
 }
 
+.affiTopDisc button {
+  width: 40%;
+  border: none;
+  background-color: #2d9ed3;
+  padding: .8rem 1.2rem;
+  color: #fff;
+  border-radius: .5rem;
+}
 
 .affiStepOne {
   display: grid;
@@ -545,15 +554,17 @@ div.activityLogCont tbody tr {
 }
 
 .affiTopImg {
-  position: relative;
+  /* position: relative; */
+  padding: 3.4rem;
+
 }
 .affiTopImg img {
   max-width: 23rem;
     border-radius: 1.2rem;
-    transform: scale(1.3);
-    position: absolute;
+    /* transform: scale(1.3); */
+    /* position: absolute;
     top: -28px;
-    right: 34px;
+    right: 34px; */
 }
 
 .stepDiscription {

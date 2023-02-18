@@ -8,10 +8,15 @@ import Mbild from "./logos/etid.jpg";
 import Mbila from "./logos/mobile.webp";
 import GOtv from "./logos/gotv.jpg";
 import DsTv from "./logos/dstv.jpg";
+import Mtnlogo1 from "./logos/mtn.png";
+import Glologo1 from "./logos/gloo.png";
+import Airtellogo1 from "./logos/airtel.png";
+import Etisalatlogo1 from "./logos/9mobile.png";
+
 
 const BizCardEntry = [
   {
-    logo: MtnD,
+    logo: Mtnlogo1,
     name: "MTN Data",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -20,7 +25,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: GloD,
+    logo: Glologo1,
     name: "Glo Data",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -29,7 +34,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: ArteLogo,
+    logo: Airtellogo1,
     name: "Airtel Data",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -38,10 +43,9 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Mbild,
+    logo: Etisalatlogo1,
     name: "9Mobile Data",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+    discription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -49,8 +53,7 @@ const BizCardEntry = [
   {
     logo: Startimes,
     name: "Startimes",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+    discription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -74,7 +77,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: MtnA,
+    logo:  MtnD,
     name: "MTN Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -83,7 +86,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: GloD,
+    logo:  GloD,
     name: "Glo Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -92,7 +95,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Aitela,
+    logo:  ArteLogo,
     name: "Airtel Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
@@ -101,7 +104,7 @@ const BizCardEntry = [
     btn: "Subscribe",
   },
   {
-    logo: Mbila,
+    logo:  Mbild,
     name: "9Mobile Airtime",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",

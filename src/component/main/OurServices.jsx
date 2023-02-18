@@ -7,7 +7,7 @@ import mtnImg from "../images/our-services/mtnphn.png";
 import gloImg from "../images/our-services/glophn.png";
 import stertimeImg from "../images/our-services/startimes.png";
 import dstvImg from "../images/our-services/dstv.png";
-import gotvImg from "../images/our-services/glophn.png";
+import gotvImg from "../images/our-services/gotvv.png";
 import pay1 from "../images/our-services/pay1.png";
 import pay2 from "../images/our-services/pay2.png";
 import pay3 from "../images/our-services/pay3.png";

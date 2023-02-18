@@ -8,6 +8,7 @@ function AffiliationInfo() {
                     <div className="affiTopDisc">
                         <h3>Become an Affiliate Partner</h3>
                         <p>Thanks for your interest in becoming a Dash Affiliate! We have created a program which will allow you to make great money by linking to our site. We automatically track your commissions and send them each month. Refer new customers to Dash and earn up to 20% of every purchase you deliver to us.</p>
+                        <button>Become an affiliate</button>
                     </div>
                     <figure className="affiTopImg">
                         <img src={AffiImg} alt="dash.net" />
