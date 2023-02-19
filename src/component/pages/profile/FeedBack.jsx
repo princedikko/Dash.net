@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "../../header/NavBar";
-import Logo from "../../pages/login/logImage/photo2.png"
 import { Link } from "react-router-dom";
 function FeedBack() {
   return <section className="sectionFeedBack">
