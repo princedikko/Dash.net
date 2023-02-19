@@ -5,10 +5,12 @@
   font-size: 1.5rem;
   color: #333;
 }
+
 .asideProfile,
 .prifleCont {
   min-height: 100vh;
 }
+
 .asideProfile {
   background-color: #fafaff;
 }
@@ -183,6 +185,7 @@
   display: flex;
   gap: 1.2rem;
 }
+
 .iconsMedia:link,
 .iconsMedia:visited {
   position: absolute;
@@ -196,30 +199,36 @@
   color: #ffffff;
   transition: all 0.3s;
 }
+
 .iconsMedia:hover,
 .iconsMedia:active {
   opacity: 0.7;
 }
+
 .iconsMedia:nth-child(1) {
   background-color: #00acee;
   top: 2rem;
   left: 2rem;
 }
+
 .iconsMedia:nth-child(2) {
   background-color: #5982c1;
   top: 7rem;
   left: 11rem;
 }
+
 .iconsMedia:nth-child(3) {
   background-color: #82a1d1;
   top: 4rem;
   left: 23rem;
 }
+
 .iconsMedia:nth-child(4) {
   background-image: linear-gradient(to right bottom, #7a39aa, #d61437, #eac600);
   top: 14rem;
   left: 11rem;
 }
+
 .iconsMedia:nth-child(5) {
   background-color: #3de45c;
   top: 11rem;
@@ -235,15 +244,18 @@
 .profileBottom {
   padding: 0 3.4rem;
 }
+
 .profileBottom hr {
   width: 45%;
   background-color: #ddd;
   border: none;
   height: 1px;
 }
+
 .pBtmCard figure {
   padding: 2.4rem;
 }
+
 .pBtmCard figure:nth-child(2) {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -259,9 +271,11 @@
   margin: 0 auto;
   overflow: hidden;
 }
+
 .paymentDisplay {
   padding: 4.4rem;
 }
+
 .methods:link,
 .methods:visited {
   color: #999;
@@ -276,12 +290,12 @@
   color: #4c3100;
   font-size: 1rem;
 }
+
 .paymentItems ul {
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-
   justify-content: flex-start;
   background-color: #fafaff;
   padding: 3.4rem;
@@ -300,11 +314,13 @@
   flex-direction: column;
   gap: 2.4rem;
 }
+
 .airtimePay {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
 }
+
 .aPheading {
   display: grid;
   gap: 2rem;
@@ -318,6 +334,7 @@
 .aPCard div {
   padding: 1.2rem 2.4rem;
 }
+
 .aPCard {
   display: flex;
   flex-direction: column;
@@ -512,7 +529,6 @@ div.activityLogCont tbody tr {
   padding: 3.4rem;
 }
 
-
 .affiTopCard {
   display: grid;
  grid-template-columns: 2.7fr 1.5fr;
@@ -531,8 +547,7 @@ div.activityLogCont tbody tr {
   flex-direction: column;
   gap: 2rem;
   line-height: 1.5;
-  padding: 3.4rem;
-
+  padding: 3.4rem; 
 }
 
 .affiTopDisc button {
@@ -555,9 +570,9 @@ div.activityLogCont tbody tr {
 
 .affiTopImg {
   /* position: relative; */
-  padding: 3.4rem;
-
+  padding: 3.4rem; 
 }
+
 .affiTopImg img {
   max-width: 23rem;
     border-radius: 1.2rem;

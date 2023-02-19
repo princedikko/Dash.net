@@ -13,6 +13,7 @@ import Logobiz from "./businesspages/dashh.png";
 
 //  icons
 import BusinessIcon from "@mui/icons-material/Business";
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import PaidIcon from "@mui/icons-material/Paid";
 // import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -36,8 +37,10 @@ function AsideBusiness(props) {
           </Link>
         </div>
         <div>
-          <Link className="bizBtn" style={{ color: "#fff" }} to="/profile">
-            Profile
+          <Link className="bizBtn flex" style={{ color: "#fff" }} to="/profile">
+            <LibraryBooksIcon fontSize="large"/> <span>
+            Guideline
+            </span>
           </Link>
         </div>
       </figure>
@@ -69,14 +72,7 @@ function AsideBusiness(props) {
           <ReportProblemIcon style={{ fontSize: "1.5rem" }} />
           <span>Report a problem</span>
         </Link>
-        <Link
-          to="/contactcompany"
-          style={{ color: "#999" }}
-          className="sideNavItemBiz"
-        >
-          <ContactSupportIcon style={{ fontSize: "1.7rem" }} />{" "}
-          <span>Contact us</span>
-        </Link>
+       
         <Link
           to="/company"
           style={{ color: "#999" }}
@@ -84,6 +80,14 @@ function AsideBusiness(props) {
         >
           <GavelIcon style={{ fontSize: "1.7rem" }} />{" "}
           <span> Terms of Service</span>
+        </Link>
+        <Link
+          to="/contactcompany"
+          style={{ color: "#999" }}
+          className="sideNavItemBiz"
+        >
+          <ContactSupportIcon style={{ fontSize: "1.7rem" }} />{" "}
+          <span>Check our FAQs</span>
         </Link>
         <Link
           to="/company"
