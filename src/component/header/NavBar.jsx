@@ -25,10 +25,8 @@ function NavBar() {
       </Link>
       <div className="navBarItems">
         <Link className="navItem flex">
-          {/* <a href="#" className="navItem flex"> */}
           <span>Category</span>
           <MenuIcon fontSize="medium" />
-          {/* </a> */}
         </Link>
 
         <form action="" className="navForm flex">

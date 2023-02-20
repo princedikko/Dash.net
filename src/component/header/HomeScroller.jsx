@@ -6,7 +6,7 @@ function HomeScroller() {
     <div className="homeScroll ">
       <ul className="flex">
         <li>
-          <a href="#" className="category flex">
+          <a href="#" className="category flex" >
             <ViewCompactIcon fontSize="large" /> <span>Site Overview</span>
           </a>
         </li>

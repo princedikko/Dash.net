@@ -5,7 +5,7 @@ import MainHeading from "./MainHeading";
 // Images
 import mtnImg from "../images/our-services/mtnphn.png";
 import gloImg from "../images/our-services/glophn.png";
-import stertimeImg from "../images/our-services/startimes.png";
+import stertimeImg from "../images/our-services/startimesdish.png";
 import dstvImg from "../images/our-services/dstv.png";
 import gotvImg from "../images/our-services/gotvv.png";
 import pay1 from "../images/our-services/pay1.png";
