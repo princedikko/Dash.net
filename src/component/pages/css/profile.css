@@ -359,13 +359,18 @@
 .aPBtn:link,
 .aPBtn:visited {
   background-color: #ffc966;
-  color: #000;
+  color: #666;
   padding: 0.8rem;
   border-radius: 0.6rem;
   text-align: center;
   font-weight: 700;
+  transition: all .3s;
 }
 
+.aPBtn:hover,
+.aPBtn:active{
+  opacity: .8;
+}
 #aPAmount,
 #apNetwork {
   width: 100%;

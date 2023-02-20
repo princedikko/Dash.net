@@ -21,7 +21,7 @@ function NepaBill() {
                 <div>
                 <label htmlFor="location">Electric Location</label>
                 <select name="dataNet" id="" required>
-                    <option value="">select type</option>
+                    <option value="" disabled hidden selected>select type</option>
                     <option value="abuja">Abuja Electricity</option>
                     <option value="kaduna">Kaduna Electricity</option>
                     <option value="kano">Kano Electricity</option>
@@ -32,7 +32,7 @@ function NepaBill() {
                 <div>
                     <label htmlFor="dataplan">Bill Type</label>
                     <select name="dataplan" id="dataplan" required>
-                        <option value="">select type</option>
+                        <option value="" disabled hidden selected>select type</option>
                         <option value="prepaid">Prepaid</option>
                         <option value="postpaid">Postpaid</option>
                     </select>

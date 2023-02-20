@@ -7,7 +7,7 @@ import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 // import VisibilityOffOutlinedIcon from "@mui/icons-material/VisibilityOffOutlined";
 
 // Pictures
-import Photo from "./login/logImage/photo2.png";
+import Photo from "./login/logImage/admin.png";
 
 function AdminLogin() {
   return (

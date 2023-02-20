@@ -14,7 +14,7 @@ function ConvertingAirtime() {
  
     return (
         <div>
- <figure className="priceDisp">
+ <figure className="priceDisp ">
                 <div>
                     <img src={MtnLogo} alt="dash data" />
                 </div>
@@ -26,11 +26,11 @@ function ConvertingAirtime() {
                 <span>you will recieve</span>
                 </div>
             </figure>
-            <form action="#" id="dataForm" className="transForm">
+            <form action="#" id="dataForm" className="convertForm transForm">
                 <div>
                 <label htmlFor="convertNetwork">Network Type</label>
                 <select name="airToCash" id="airToCash" required>
-                    <option value="">select option</option>
+                    <option value="" selected hidden disabled>select option</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">GLO NG</option>
                     <option value="celtel">Airtel NG</option>
@@ -43,12 +43,12 @@ function ConvertingAirtime() {
                     <input type="number" placeholder="please enter amount.."  required/>
                 </div>
                 
-                <div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis soluta molestias iure.</p>
-                </div>
                 <button onClick={DashNumber}>
                     Convert airtime to cash
                 </button>
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis soluta molestias iure.</p>
+                </div>
 
             </form>
         </div>
