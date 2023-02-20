@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LanguageIcon from "@mui/icons-material/Language";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 
-import { fontSize } from "@mui/system";
 import SocialMediaIcons from "./footer/SocialMediaIcon";
 
 function Footer() {
@@ -83,6 +81,7 @@ function Footer() {
           />
           <button type="footerSubmit">Subscribe</button>
         </form>
+        
         <SocialMediaIcons />
         {/* <figure className="footerMediaIcons flex">
           <a href="#">

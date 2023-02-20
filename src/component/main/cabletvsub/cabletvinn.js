@@ -2,7 +2,7 @@ const tvCardContent = [
   {
     id: 1,
     tvStation: "Startime Nova",
-    cardDisc: "lorem lorem asdf asdf ",
+    cardDisc: "Startime Smart is the type of beqout that uses Aria",
     daily: "$343",
     weekly: "$325",
     monthly: "$890",
@@ -10,8 +10,8 @@ const tvCardContent = [
   },
   {
     id: 2,
-    tvStation: "Startime Nova",
-    cardDisc: "lorem lorem asdf asdf ",
+    tvStation: "Startime Basic",
+    cardDisc: "Startime Smart is the type of beqout that uses Antenna",
     daily: "$343",
     weekly: "$325",
     monthly: "$890",
@@ -19,8 +19,8 @@ const tvCardContent = [
   },
   {
     id: 3,
-    tvStation: "Startime Nova",
-    cardDisc: "lorem lorem asdf asdf ",
+    tvStation: "Startime Classic",
+    cardDisc: "Startime Smart is the type of beqout that uses Antenna",
     daily: "$343",
     weekly: "$325",
     monthly: "$890",
@@ -28,8 +28,8 @@ const tvCardContent = [
   },
   {
     id: 4,
-    tvStation: "Startime Nova",
-    cardDisc: "lorem lorem asdf asdf ",
+    tvStation: "Startime Super",
+    cardDisc: "Startime Smart is the type of beqout that uses Dish",
     daily: "$343",
     weekly: "$325",
     monthly: "$890",
@@ -37,8 +37,8 @@ const tvCardContent = [
   },
   {
     id: 5,
-    tvStation: "Startime Nova",
-    cardDisc: "lorem lorem asdf asdf ",
+    tvStation: "Startime Smart",
+    cardDisc: "Startime Smart is the type of beqout that uses Dish",
     daily: "$343",
     weekly: "$325",
     monthly: "$890",

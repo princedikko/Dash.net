@@ -844,6 +844,7 @@ Networks Components Decoration Blocks
   justify-content: center;
   align-items: center;
 }
+
 .tvCardBtn:link,
 .tvCardBtn:visited {
   background-color: #fff;
@@ -851,7 +852,16 @@ Networks Components Decoration Blocks
   padding: 1.3rem 2.4rem;
   border-radius: 5rem;
   text-align: center;
+  transition: all .3s;
 }
+
+.tvCardBtn:hover,
+.tvCardBtn:active {
+  color: #fff;
+  background-image: linear-gradient(to right bottom, #00abeeb6, #2961c4);
+
+}
+
 
 .tvcBottom {
   margin-top: 2.5rem;
@@ -924,9 +934,10 @@ Section Info Decoration Blocks
 .infoHeading {
   font-size: 4.5rem;
   width: 100%;
+  color: #333;
 }
 .infoHeading span {
-  color: #f89c4d;
+  color: #1d4489;
   opacity: 1;
 }
 
@@ -949,22 +960,22 @@ Section Info Decoration Blocks
 }
 
 .infoRegIcon {
-  background-color: #555b70;
+  background-color: #1d4489;
 }
 
 .infoNoneIcon {
-  background-color: #f89c4d;
+  background-color: #008abe;
 }
 .noneTransaction h4,
 .regTransaction h4 {
   width: 100%;
-  color: #555b70;
+  color: #1d4489;
   opacity: 1;
   font-size: 2.8rem;
 }
 
 .noneTransaction h4 {
-  color: #f89c4d;
+  color: #008abe;
 }
 .noneTransaction p,
 .regTransaction p {
@@ -1000,7 +1011,7 @@ Section Info Decoration Blocks
 }
 
 .infoCycleRight {
-  background-color: #f89c4d;
+  background-color: #008abe;
 
   border-radius: 2rem;
 }
@@ -1010,7 +1021,7 @@ Section Info Decoration Blocks
   border-radius: 50%;
   width: 85%;
   height: 85%;
-  border: 2.5rem solid #555b70;
+  border: 2.5rem solid #1d4489;
   position: absolute;
   top: 50%;
   right: 50%;
@@ -1021,7 +1032,7 @@ Section Info Decoration Blocks
   width: 100%;
   opacity: 1;
 }
-
+/* 
 .infoImage::after {
   content: "";
   padding: 0rem;
@@ -1031,7 +1042,7 @@ Section Info Decoration Blocks
   position: absolute;
   top: 140px;
   left: 53px;
-}
+} */
 /* ----------------------------------
 Feature Section Decoration Blocks
 -------------------------------------- */
@@ -1067,8 +1078,12 @@ Feature Section Decoration Blocks
   border-radius: 50rem;
   padding: 1.6rem 2.4rem;
   width: 45%;
+  transition: all .3s;
 }
-
+.featureDiscription .featureBtn:hover,
+.featureDiscription .featureBtn:active {
+  opacity: .6;
+}
 .featureDiscription h4 a:link,
 .featureDiscription h4 a:visited {
   font-size: 1.6rem;
@@ -1115,8 +1130,14 @@ button[type="lang"] {
   padding: 0.2rem 3rem 0.2rem 1.2rem;
   font-size: 1.5rem;
   cursor: pointer;
+  transition: all .5s;
 }
 
+button[type="lang"]:hover,
+button[type="lang"]:active {
+  background-color: #fff;
+  color: #29475e;
+} 
 .footerItems {
   display: flex;
   gap: 4.2rem;
@@ -1134,6 +1155,11 @@ button[type="lang"] {
   color: #fff;
   transition: all 0.3s;
 }
+
+.footerItems a:hover,
+.footerItems a:active {
+  box-shadow: inset 0 -2px 0 0 #FFF;
+} 
 
 .footerMiddle {
   display: flex;
@@ -1172,6 +1198,11 @@ button[type="footerSubmit"] {
   height: 100%;
 }
 
+button[type="footerSubmit"]:hover,
+button[type="footerSubmit"]:active {
+  opacity: .6;
+}
+
 .footerMediaIcons {
   gap: 2.4rem;
 }
@@ -1189,6 +1220,11 @@ button[type="footerSubmit"] {
 .footerMediaIcons.flex a:link,
 .footerMediaIcons.flex a:visited {
   color: #00acee;
+  transition: all .3s;
+}
+footer .footerMediaIcons.flex a:link,
+footer .footerMediaIcons.flex a:visited {
+  color: #fff;
 }
 .copyRight {
   display: flex;
@@ -1214,4 +1250,10 @@ ul.listEnd {
   border-left: 2px solid #fff;
   padding-left: 1rem;
   color: inherit;
+  transition: all .3s;
+}
+
+.listEnd a:hover,
+.listEnd a:active  {
+  color: rgb(255, 196, 0);
 }
