@@ -55,7 +55,7 @@ function Login() {
             </div>
             <p>
               Don't have an account yet?{" "}
-              <Link to="/register">Sign up here</Link>
+              <Link to="/register" className="signupLog">Sign up here</Link>
             </p>
           </form>
           <div className="icons">

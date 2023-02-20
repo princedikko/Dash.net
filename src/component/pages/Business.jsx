@@ -37,7 +37,7 @@ function AsideBusiness(props) {
           </Link>
         </div>
         <div>
-          <Link className="bizBtn flex" style={{ color: "#fff" }} to="/profile">
+          <Link className="bizBtn flex" style={{ color: "#2e7670" }} to="/profile">
             <LibraryBooksIcon fontSize="large"/> <span>
             Guideline
             </span>
@@ -141,7 +141,7 @@ function Business() {
               heading="Business New"
               icon={
                 <ShoppingCartIcon
-                  style={{ fontSize: "3.4rem", color: "#00acee" }}
+                  style={{ fontSize: "3.4rem", color: "#ccc" }}
                 />
               }
             />

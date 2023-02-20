@@ -512,24 +512,25 @@ Networks Components Decoration Blocks
 
 .gloComponent h2 {
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  /* background-color: #9eded8; */
-  background-color: #cce9cc;
-  color: #003b00;
+  align-items: center; 
+  background-color: #5cebdf;
+  color: #1c4643;
   font-size: 2rem;
   padding: 1.5rem 3.4rem;
   width: 100%;
 }
 
 .gloComponent h3 {
-  color: #003b00;
+  color: #122f2d;
 }
 .gloDataCards {
   padding: 2.4rem;
   gap: 2.8rem;
 }
 
+.gloComponent p {
+  color: #122f2d;
+}
 .gloCardLink:link,
 .gloCardLink:visited {
   color: inherit;
@@ -569,14 +570,14 @@ Networks Components Decoration Blocks
 
 .gloCardTag span {
   width: 50%;
-  background-color: #002c00;
+  background-color: #2e7670;
   color: #fff;
 
   padding: 0.3rem 2rem;
 }
 .gloCardTag span:last-child {
-  background-color: #cce9cc;
-  color: #000f00;
+  background-color: #aef5ef;
+  color: #000;
 }
 
 /* 9Mobile decoration */
@@ -961,21 +962,21 @@ Section Info Decoration Blocks
 
 .infoRegIcon {
   background-color: #1d4489;
+  opacity: .7;
 }
 
 .infoNoneIcon {
-  background-color: #008abe;
+  background-color: #53d4c9;
 }
 .noneTransaction h4,
 .regTransaction h4 {
   width: 100%;
-  color: #1d4489;
-  opacity: 1;
+  color: #1d4489; 
   font-size: 2.8rem;
 }
 
 .noneTransaction h4 {
-  color: #008abe;
+  color: #53d4c9;
 }
 .noneTransaction p,
 .regTransaction p {
@@ -1011,7 +1012,7 @@ Section Info Decoration Blocks
 }
 
 .infoCycleRight {
-  background-color: #008abe;
+  background-color: #5cebdf;
 
   border-radius: 2rem;
 }
@@ -1021,7 +1022,7 @@ Section Info Decoration Blocks
   border-radius: 50%;
   width: 85%;
   height: 85%;
-  border: 2.5rem solid #1d4489;
+  border: 2.5rem solid #4abcb2;
   position: absolute;
   top: 50%;
   right: 50%;
@@ -1219,7 +1220,7 @@ button[type="footerSubmit"]:active {
 
 .footerMediaIcons.flex a:link,
 .footerMediaIcons.flex a:visited {
-  color: #00acee;
+  color: #3e71ca;
   transition: all .3s;
 }
 footer .footerMediaIcons.flex a:link,

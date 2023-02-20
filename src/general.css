@@ -1,5 +1,5 @@
 /* Brand Color =  #2961c4 */
-/* Secondary Color =  #00acee */
+/* Secondary Color =  #5cebdf */
 
 html {
   font-size: 62.5%;
@@ -19,7 +19,7 @@ body {
   color: #000;
 }
 
-/* body p,
+ body p,
 body h1,
 body h2,
 body h3,
@@ -33,7 +33,7 @@ body .icon {
 
 .gn--opcy {
   opacity: 0.7;
-} */
+}  
 
 ul {
   list-style-type: none;
