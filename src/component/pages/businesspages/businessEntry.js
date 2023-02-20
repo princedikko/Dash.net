@@ -19,7 +19,7 @@ const BizCardEntry = [
     logo: Mtnlogo1,
     name: "MTN Data",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet, consectetur  ",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -28,7 +28,7 @@ const BizCardEntry = [
     logo: Glologo1,
     name: "Glo Data",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -37,7 +37,7 @@ const BizCardEntry = [
     logo: Airtellogo1,
     name: "Airtel Data",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit  Nemo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -45,7 +45,7 @@ const BizCardEntry = [
   {
     logo: Etisalatlogo1,
     name: "9Mobile Data",
-    discription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+    discription: "Lorem ipsum dolor sit  Nemo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -53,7 +53,7 @@ const BizCardEntry = [
   {
     logo: Startimes,
     name: "Startimes",
-    discription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+    discription: "Lorem ipsum adipisicing elit. Nemo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -62,7 +62,7 @@ const BizCardEntry = [
     logo: DsTv,
     name: "DSTV ",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet,  itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -71,7 +71,7 @@ const BizCardEntry = [
     logo: GOtv,
     name: "GoTv Subscription",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet, consectetur deserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -80,7 +80,7 @@ const BizCardEntry = [
     logo:  MtnD,
     name: "MTN Airtime",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet,  itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -89,7 +89,7 @@ const BizCardEntry = [
     logo:  GloD,
     name: "Glo Airtime",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet,  taquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -98,7 +98,7 @@ const BizCardEntry = [
     logo:  ArteLogo,
     name: "Airtel Airtime",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet,  mo, itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -107,16 +107,16 @@ const BizCardEntry = [
     logo:  Mbild,
     name: "9Mobile Airtime",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet Nemo,",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
   },
   {
     logo: Startimes,
-    name: "NEPA Electricity",
+    name: "NEPA/Electric Bill",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet,   itaquedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -125,7 +125,7 @@ const BizCardEntry = [
     logo: Startimes,
     name: "Airtime to Cash",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet, co uedeserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",
@@ -134,7 +134,7 @@ const BizCardEntry = [
     logo: Startimes,
     name: "Bulk SMS",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, itaquedeserunt",
+      "Lorem ipsum dolor sit amet, eserunt",
     only: "Only",
     price: "$496",
     btn: "Subscribe",

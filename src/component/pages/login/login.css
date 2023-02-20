@@ -59,7 +59,13 @@
 .loginInfo {
   background-color: #f7f8fe;
 }
-
+.sectionAdminLogin .loginInfo {
+  background-color: #2961c4;
+  color: #fff;
+}
+.baseLogItems Link:link {
+  color: #fff !important;
+}
 #loginForm {
   width: 57%;
   display: flex;

@@ -43,8 +43,8 @@ function ReportProblems() {
             <label htmlFor="email">Email </label>
             <input type="email" name="Rpemail" id="" placeholder="Email" required/>
             <label htmlFor="inquiry">Your inquiry</label>
-            <select name="Rpinquire" id="inquiryRp" >
-              <option value=" " style={{color: "gray"}}  disabled selected hidden required>select..</option>
+            <select name="Rpinquire" id="inquiryRp" required>
+              <option value=" " style={{color: "gray"}}  disabled selected hidden >select..</option>
               <option value="caseOne" >Case One</option>
               <option value="caseOne" >Case One</option>
               <option value="caseOne" >Case One</option>

@@ -21,7 +21,7 @@ function TVCableSubs() {
                 <div>
                 <label htmlFor="service">Service</label>
                 <select name="dataNet" id="" required>
-                    <option value="">select option</option>
+                    <option value="" disabled selected hidden>select option</option>
                     <option value="startimes">Startimes</option>
                     <option value="gotv">GoTv</option>
                     <option value="DSTV">DSTV</option>
@@ -31,7 +31,7 @@ function TVCableSubs() {
                 <div>
                     <label htmlFor="tvType">Network Type:</label>
                     <select name="tvNetType" id="tvSubsType" required>
-                        <option value="">choose an option</option>
+                        <option value="" disabled selected hidden >choose an option</option>
                         <option value="nova">Startimes Nova</option>
                         <option value="basic">Startimes Basic [Antenna]</option>
                         <option value="classic">Startimes Classic [Antenna]</option>
@@ -42,7 +42,7 @@ function TVCableSubs() {
                 <div>
                     <label htmlFor="tvDuratoin">Duration:</label>
                     <select name="tvNetType" id="tvSubsType" required>
-                        <option value=""></option>
+                        <option value="" hidden disabled selected>Select option</option>
                         <option value="day">One Day</option>
                         <option value="week">One Week</option>
                         <option value="month">One Month</option>

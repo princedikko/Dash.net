@@ -20,7 +20,7 @@ function DataSubscription() {
                 <div>
                 <label htmlFor="network">Network</label>
                 <select name="dataNet" id="" required>
-                    <option value="">select network</option>
+                    <option value=" " disabled selected hidden >select network</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">Glo NG</option>
                     <option value="airtel">Airtel NG</option>
@@ -31,7 +31,8 @@ function DataSubscription() {
                 <div>
                     <label htmlFor="dataplan">Data Plan</label>
                     <select name="dataplan" id="dataplan" required>
-                        <option value="">choose data plan</option>
+
+                        <option value=" " disabled selected hidden>choose data plan</option>
                         <option value="mb">500MB</option>
                         <option value="mb">1.00 GB</option>
                     </select>
@@ -40,6 +41,7 @@ function DataSubscription() {
                     <label htmlFor="number" >Phone Number:</label>
                     <input type="number" name="dataNumber" placeholder="Enter number..." required/>
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button>
                     Purchase data
                 </button>

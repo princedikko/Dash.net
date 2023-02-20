@@ -21,7 +21,7 @@ function Airtime() {
                 <div>
                 <label htmlFor="network">Network</label>
                 <select name="airtimeNet" id=""required>
-                    <option value="">select network</option>
+                    <option value="" disabled selected hidden>select network</option>
                     <option value="mtn">MTN NG</option>
                     <option value="glo">Glo NG</option>
                     <option value="airtel">Airtel NG</option>
