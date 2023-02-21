@@ -2,11 +2,27 @@ import React from "react";
 import NavBar from "../header/NavBar";
 import Logo from "../pages/login/logImage/photo2.png"
 import { Link } from "react-router-dom";
+
+
+// icons
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import TelegramIcon from "@mui/icons-material/Telegram";
+
+
 function ReportProblems() {
   return (
     <section className="sectionReportProblems">
       <div className="RpHeader">
         <NavBar />
+      </div>
+      <div className="rptProblem">
+        <h2 class="heading--secondary">Have Problem?</h2><p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.Repellat, id in doloribus a minus ex quod!
+        </p>
       </div>
       <div className="RpBody golf golf2">
         <div className="RpIllustration">
@@ -25,12 +41,30 @@ function ReportProblems() {
           </div>
           <div className="RpLinkto">
             <h4>Social media</h4>
-            <p><Link>dash@facebook.com</Link></p>
-            <p><Link>dash@twiter.com</Link></p>
+            <figure className="golf golf4">
+      <Link>
+        <TwitterIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+      <Link>
+        <FacebookIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+      <Link>
+        <LinkedInIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+      <Link>
+        <InstagramIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+      <Link>
+        <WhatsAppIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+      <Link>
+        <TelegramIcon style={{ fontSize: "2.1rem" }} />
+      </Link>
+    </figure>
           </div>
           <div className="RpLinkto">
             <h4>Support Line</h4>
-            <p>calls are being recieved on weekend at about 4pm <br /> and end at 6pm</p>
+            <p>Calls are being recieved  and end at 6pm</p>
             <p><Link>+2348 0694 50870</Link></p>
           </div>
           </div>

@@ -18,7 +18,7 @@ function PriceConvert() {
                     <span className="flex"><Convt fontSize="large"/> <span>Glo</span></span><span className="percent">25%</span>
                 </p>
                 <div className="percentBarCont gloC">
-                    <div className="percentBar"> &nbsp;</div>
+                    <div className="percentBar gl"> &nbsp;</div>
                 </div>
             </figure>
             <figure className="convertCard">
@@ -33,10 +33,10 @@ function PriceConvert() {
             <figure className="convertCard">
                 <h5>Airtime to cash</h5>
                 <p className="flex">
-                    <span className="flex"><Convt fontSize="large"/> <span>9Mobile</span></span><span className="percent ccmobile">15%</span>
+                    <span className="flex"><Convt fontSize="large"/> <span>9Mobile</span></span><span className="percent ccmobile">31%</span>
                 </p>
                 <div className="percentBarCont">
-                    <div className="percentBar"> &nbsp;</div>
+                    <div className="percentBar mm"> &nbsp;</div>
                 </div>
             </figure> 
         </div>

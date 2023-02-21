@@ -434,8 +434,15 @@ gap: .8rem;
 .percent {
   font-size: 2.8rem;
   font-weight: 200;
+  color: #2961c4;
 }
 
+.convertCard h5 {
+  color: #666;
+}
+.convertCard span {
+  color: #000;
+}
 
 .percentBarCont {
   background-color: #e7e4f0;
@@ -446,12 +453,24 @@ gap: .8rem;
 }
 
 .percentBar {
-  background-color: #5982c1;
+
+  background-color: #5cebdf;
   width: 85%;
   border-radius: 33rem;
   padding: .2rem;
 }
+.percentBar.gl {
+  /* background: linear-gradient( 90deg, #2961c4 50%, 60deg, #5cebdf 0%); */
+  width: 75%;
+}
 
+.percentBar.acc {
+  width: 81%;
+}
+
+.percentBar.mm {
+  width: 69%;
+}
 .bulksPriceCont {
   width: 100%;
   background-color: #ffffff;
@@ -600,15 +619,34 @@ text-align: left;
 .sectionReportProblems { 
   background-color: #fff;
   min-height: 100vh;
-}.RpBody {
-  padding: 9.6rem;
+}
+
+.RpBody {
+  gap: 2.4rem;
+  padding: 4rem 9.6rem;
+}
+
+
+.rptProblem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 3.4rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.6rem;
+  font-family: serif;
+}
+
+option {
+  padding: 3.4rem;
 }
 
 .RpIllustration {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 3.4rem;
-  padding: 1.2rem 3.4rem;
+  padding: 1.2rem .1rem;
 }
 
 .RpImg {
@@ -625,6 +663,13 @@ text-align: left;
   font-size: 1.5rem;
 }
 
+.RpLinkto h4 {
+  margin-bottom: 1.2rem;
+}
+
+.RpLinkto .golf {
+  row-gap: 1.2rem;
+}
 .Rpgride {
   column-gap: 2.4rem;
   row-gap: 3.4rem;

@@ -299,8 +299,7 @@
   justify-content: flex-start;
   background-color: #fafaff;
   padding: 3.4rem;
-  padding-right: 2rem;
-  border-radius: 1.2rem;
+  padding-right: 2rem; 
 }
 
 .paymentItems ul li {
@@ -376,7 +375,7 @@
   width: 100%;
   background-color: #fafafa;
   color: #999;
-  border: none;
+  border: 1px solid #eee;
   padding: 1.2rem;
   margin-top: 1rem;
 }
@@ -424,24 +423,47 @@
   border: none;
   font-weight: 100;
   overflow: hidden;
+  padding: 1.2rem;
 }
 
 #enBnk input {
   background-color: #fafaff;
-  padding: 1.2rem;
+  border: 1px solid #bfd0ed;
 }
 #enBnk button {
-  background-color: #ffedcc;
+  background-color: #2961c4;
+  color: #fff;
+  transition: all .3s;
+}
+#enBnk button:hover,
+#enBnk button:active {
+  background-color: #5481d0;
+  color: #fff;
 }
 .AirtimeEntCont button {
   width: 100%;
   text-align: center;
   border: none;
-  background-color: #ffc966;
+  background-color: #2961c4;
+  color: white;
   font-size: 1.5rem;
   padding: 1.2rem;
+  transition: all .3s;
 }
 
+.AirtimeEntCont button:hover,
+.AirtimeEntCont button:active {
+  background-color: #5481d0;
+}
+
+.paymenttitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  margin-bottom: 1.4rem;
+  color: #153162;
+}
 #debitCardform {
   display: flex;
   flex-direction: column;
@@ -453,7 +475,7 @@
 #debitCardform input {
   width: 100%;
   padding: 1.5rem 1.2rem;
-  border: none;
+  border: 1px solid #eee;
 }
 
 #debitCardform input {
@@ -461,13 +483,19 @@
 }
 
 #debitCardform button {
+  background-color: #2961c4;
+  color: #fff;
   font-size: 1.6rem;
+  transition: all .3s;
 }
-
+#debitCardform button:hover,
+#debitCardform button:active {
+  background-color: #5481d0;
+}
 #walletPay {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  gap: 2.4rem;
 }
 
 #walletPay select,
@@ -475,31 +503,53 @@
   width: 100%;
   border: none;
   background-color: #fafaff;
+  border: 1px solid #eee;
   padding: 1.2rem 2.4rem;
   font-size: 1.5rem;
   margin-top: 0.8rem;
 }
 
 #walletPay button {
+  background-color: #2961c4;
+  color: #fff;
+  border-radius: 44rem;
   border: none;
   padding: 1.4rem 2.6rem;
+  transition: all .3s;
 }
-
+#walletPay button:hover,
+#walletPay button:active {
+  background-color: #5481d0;
+}
 #dashGift {
   display: flex;
   flex-direction: column;
-  gap: 2.3rem;
+  gap: 1.3rem;
 }
 
 #dashGift input,
 #dashGift button {
-  padding: 2.4rem;
-  border: none;
+  padding: 1.4rem;
+  border-radius: 44rem;
+  
 }
 
 #dashGift input {
   background-color: #fafaff;
+  border: 1px solid #eee;
+  font-size: 1.9rem;
+  font-weight: 200;
+  color: #333;
+  margin-bottom: 1.2rem;
 }
+
+#dashGift button {
+  background-color: #2961c4;
+  color: #fff;
+  transition: all .3s;
+  border: none;
+}
+
 
 
 /* Payment Methods Decoration blocks */

@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+import SyncAltIcon from "@mui/icons-material/SyncAlt";
+
 function BanktransDe() {
   return (
     <figure className="bankTransfer">
@@ -44,13 +47,17 @@ function Banktransfer() {
 
   function BanktransEnter() {
     return (
+      <div>
+              <h2 className="paymenttitle"><SyncAltIcon style={{fontSize: "3.4rem"}}/><span>Bank transfer</span></h2>
+
       <form action="php" id="enBnk">
         <p>Please enter amount to fund your account</p>
-        <input type="number" placeholder="Enter amount..." />
+        <input type="number" placeholder="Enter amount..." required/>
         <Link onClick={updateTransClick}>
           <button>Proceed to transfer</button>
         </Link>
       </form>
+      </div>
     );
   }
 

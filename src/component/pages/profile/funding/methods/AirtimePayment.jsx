@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import StyleIcon from "@mui/icons-material/Style";
 function AirtimePayment() {
   const [airtimePay, setairtimePay] = React.useState(false);
 
@@ -45,12 +45,14 @@ function AirtimePayment() {
   function AirtimeEnt() {
     return (
       <div className="AirtimeEntCont">
+              <h2 className="paymenttitle"><StyleIcon style={{fontSize: "3.4rem"}}/> <span>Airtime payment</span></h2>
+
         <div className="aPheading">
           <span>
             <form action="php">
               <label htmlFor="amount">Amount:</label>
-              <select name="aPamount" id="aPAmount">
-                <option>Choose amount</option>
+              <select name="aPamount" id="aPAmount" required>
+                <option value="" selected hidden disabled>Choose amount</option>
                 <option value="500">NGN 500</option>
                 <option value="500">NGN 1000</option>
                 <option value="500">NGN 1500</option>
@@ -75,8 +77,8 @@ function AirtimePayment() {
           </span>
           <span className="apNetwork">
             <label htmlFor="network">Network</label>
-            <select name="network" id="apNetwork">
-              <option value="">Select network</option>
+            <select name="network" id="apNetwork" required>
+              <option value="" hidden selected disabled>Select network</option>
               <option value="MTN">Mtn Ng</option>
               <option value="glo">Glo Ng</option>
               <option value="airtel">Airtel Ng</option>

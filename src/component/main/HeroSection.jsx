@@ -1,5 +1,5 @@
 import React from "react";
-import heroOne from "../images/hero/banner2.jpg";
+import heroOne from "../images/hero/banner3.jpg";
 import imgHeroCard from "../images/hero/heroCard2.jpg";
 
 // Icons

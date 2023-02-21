@@ -1,7 +1,12 @@
 import React from "react";
 
+import QrCode from "@mui/icons-material/QrCodeScanner";
+import Wallet from "@mui/icons-material/AccountBalanceWallet";
+
 function WalletMethod() {
   return (
+    <div>
+              <h2 className="paymenttitle"><Wallet style={{fontSize: "3.4rem"}}/> <span>Pay with wallet</span></h2>
     <form action="php" id="walletPay">
       <div>
         <label htmlFor="WlmAmount">Amount</label>
@@ -18,6 +23,7 @@ function WalletMethod() {
       </div>
       <button type="wlmSubmit">Proceed to Wallet</button>
     </form>
+    </div>
   );
 }
 
