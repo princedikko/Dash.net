@@ -550,6 +550,10 @@
   border: none;
 }
 
+#dashGift button:hover, 
+#dashGift button:active {
+  background-color: #5481d0;
+}
 
 
 /* Payment Methods Decoration blocks */

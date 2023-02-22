@@ -251,8 +251,11 @@ _____________________________________ */
 }
 .transLink:link,
 .transLink:visited {
+  transition: all .3s;
   color: #7d7d80;
 }
+
+
 
 .transCardCont,
 .transCardCont {
@@ -263,21 +266,46 @@ _____________________________________ */
   background-color: #fff;
   padding: 1rem;
   padding-right: 2rem;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
   border: 1px solid #e1e1e6;
   font-size: 1.8rem;
   font-weight: 500;
+  transition: all .2s;
 }
 
-.transCardLogo {
-  width: 15%;
+.transCardCont:hover,
+.transCardCont:active {
+  border: 1px solid transparent;
+  box-shadow: 2px 7px 20px -6px rgba(0, 0, 0, 0.3);
 }
 
-.transCardLogo img {
-  width: 100%;
+#transCardLogo {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 44rem;
+  padding: .4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
+.dataGrad {
+  background: linear-gradient(to right bottom, #e86146, #f7c30b);
+  
+}
 
+.transCardDisc {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.transCardDisc p {
+  font-size: 1.5rem;
+  color: #999;
+}
 /*  DataSubscription DecBlock */
 .sectionAirtimeSubs, .sectionDataSubs, .nepaBillConts,.TvCableSubs, .airtimeConvertsCont   {
   max-width: 65rem;
