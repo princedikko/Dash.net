@@ -8,7 +8,7 @@ import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 // import VisibilityOffOutlinedIcon from "@mui/icons-material/VisibilityOffOutlined";
 
 // Pictures
-import Photo from "./login/logImage/photo2.png";
+import LogoLog from "./login/logImage/account.svg";
 
 function Login() {
   return (
@@ -17,11 +17,11 @@ function Login() {
         {/* Login Information */}
         <div className="loginInfo">
           <figure className="loginImg">
-            <img src={Photo} alt="Dash Photo" />
+            <img src={LogoLog} alt="Dash" />
           </figure>
-          <h3>Improve your wellbeing, this includes finance and work-life</h3>
+          <h3>Improve your wellbeing, this includes internet and work-life</h3>
 
-          <p>
+          <p className="loginote">
             Discover a new way to go to work — one that puts you in charge of{" "}
             <br />
             how you earn, and how you progress your career.

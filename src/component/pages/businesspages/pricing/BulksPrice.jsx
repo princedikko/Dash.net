@@ -7,7 +7,7 @@ function BulkPriceCard(props) {
 <tr>
                     <td>{props.amount}</td>
                     <td>{props.price}</td>
-                    <td>{props.percent}</td>
+                    <td className="prcntBulks">{props.percent}</td>
                 </tr>
     )
 }
@@ -24,6 +24,7 @@ function BulksPrice() {
         <figure className="bulksPriceCont">
             <table>
             <thead> 
+                <h3>Bulks Text Messages</h3>
                 <th>
                     <td>Amount</td>
                     <td>Price</td>

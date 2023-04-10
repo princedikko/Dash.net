@@ -11,7 +11,7 @@ function Coupons() {
         type="text"
         name="coupon"
         id="dashCoupon"
-        placeholder="Enter coupon code"
+        placeholder="Enter coupon code" required
       />
       <button>Fund account</button>
     </form>

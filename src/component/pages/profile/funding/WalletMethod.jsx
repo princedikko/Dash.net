@@ -10,12 +10,12 @@ function WalletMethod() {
     <form action="php" id="walletPay">
       <div>
         <label htmlFor="WlmAmount">Amount</label>
-        <input type="number" placeholder="Enter amount.." />
+        <input type="number" placeholder="Enter amount.." required/>
       </div>
       <div>
         <label htmlFor="wallet">Wallet</label>
-        <select name="select" id="Wlmselect">
-          <option value="">Select your Wallet</option>
+        <select name="select" id="Wlmselect" required>
+          <option value="" selected hidden disabled>Select your Wallet</option>
           <option value="Paypal">Paypal</option>
           <option value="opay">Opay</option>
           <option value="wstunion">Wester Union</option>

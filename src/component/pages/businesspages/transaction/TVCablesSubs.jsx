@@ -1,13 +1,38 @@
 import React from "react";
-import MtnLogo from "../logos/stm.jpg"
+// ?images
+import StmLogo from "../logos/stm.jpg"
+import GotvLogo from "../logos/gotv.jpg"
+import DstvLogo from "../logos/dstv.jpg"
+// icons 
+import LiveTvIcon from '@mui/icons-material/LiveTv';
 
 function TVCableSubs() {
+    const [switchTv, setSwitchTv] = React.useState(" ")
+    const toggleTvService = function() {
+        switch (switchTv) {
+            case "startimes" :
+                return <img src={StmLogo} alt="dash data" /> 
+            case "dstv" :
+                return <img src={DstvLogo} alt="dash data" /> 
+            case "gotv" :
+                return <img src={GotvLogo} alt="dash data" /> 
+            default:
+                break;
+                
+        }
+    }
+
     return (
         <section className="sectionCableTvSubs">
+            <div className="tvMainCont">
+
+            
  <div className="TvCableSubs"> 
+ <h2 className="subscriptionTitle"><LiveTvIcon style={{fontSize: "3.4rem"}}/> <span>Cable Tv</span></h2>
+
             <figure className="priceDisp">
-                <div>
-                    <img src={MtnLogo} alt="dash data" />
+                <div className="TvLogoDis">
+                    {toggleTvService()}
                 </div>
                 <div>
 
@@ -17,17 +42,29 @@ function TVCableSubs() {
                 <span>Your Price</span>
                 </div>
             </figure>
-            <form action="#" id="dataForm" className="transForm">
+            <form action="" id="dataForm" className="transForm">
                 <div>
                 <label htmlFor="service">Service</label>
-                <select name="dataNet" id="" required>
+                <div className="radiusCheck golf golf3">
+                    <figure>
+                <input type="radio" name="tvService" id="" onChange={() => setSwitchTv("startimes")} /><span>Startimes</span>
+                    </figure>
+                    <figure>
+                <input type="radio" name="tvService" id="" onChange={() => setSwitchTv("gotv")}/><span>GoTv</span>
+                    </figure>
+                    <figure>
+                <input type="radio" name="tvService" id="" onChange={() => setSwitchTv("dstv")}/><span>DSTV</span>
+                    </figure>
+                </div>
+                {/* <select name="dataNet" id="" required>
                     <option value="" disabled selected hidden>select option</option>
                     <option value="startimes">Startimes</option>
                     <option value="gotv">GoTv</option>
                     <option value="DSTV">DSTV</option>
-                </select>
+                </select> */}
                 </div>
 
+                <div className="golf golf2"> 
                 <div>
                     <label htmlFor="tvType">Network Type:</label>
                     <select name="tvNetType" id="tvSubsType" required>
@@ -49,6 +86,7 @@ function TVCableSubs() {
                         
                     </select>
                 </div>
+                </div>
                 <div>
                     <label htmlFor="smartcard">Smart-Card Number:</label>
                     <input type="number" name="dataNumber" placeholder="Enter number..." required/>
@@ -58,6 +96,9 @@ function TVCableSubs() {
                 </button>
 
             </form>
+            </div>
+            <div className="dataSubIllustration">illustrations</div>
+
             </div>
         </section>
     )

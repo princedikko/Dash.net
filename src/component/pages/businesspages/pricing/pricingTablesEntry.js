@@ -1,32 +1,32 @@
 const bulksTextDetails = [
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "1 - 10 sms",
+        pricing: "N500",
         percentage: "100%"
     },
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "10 - 30 sms",
+        pricing: "N500",
         percentage: "100%"
     },
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "30 - 60 sms",
+        pricing: "N500",
         percentage: "100%"
     },
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "60 - 100",
+        pricing: "N500",
         percentage: "100%"
     },
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "100 - 150 sms",
+        pricing: "N500",
         percentage: "100%"
     },
     {   id: 1,
-        qty: "1 0 0",
-        pricing: "NGN 500",
+        qty: "150 - 300 sms",
+        pricing: "N500",
         percentage: "100%"
     },
 ];

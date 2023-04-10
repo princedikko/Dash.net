@@ -565,18 +565,53 @@
 
 /* Activity log decoration block */
 
+div.activityLogCont thead {
+  background-color: #2961c4;
+  color: #fff;
+  border-radius: .4rem;
+  padding: 1.2rem 2rem;
+  margin-top: 2.4rem;
+}
+
+
 div.activityLogCont thead,
 div.activityLogCont tbody tr {
 display: grid;
 gap: 2.4rem;
-grid-template-columns: 1fr 2.5fr 1fr 1fr 1fr;
+grid-template-columns: 0.4fr 1fr 2.5fr 1fr 1fr 1fr;
 text-align: left; 
-padding: .8rem .4rem;
 font-size: 1.5rem;
 }
 
+
+
 div.activityLogCont tbody tr {
   font-size: 1.4rem;
+  padding: .4rem 2rem;
+  /* border-bottom: 1px solid #eee; */
+
+}
+
+div.activityLogCont tbody tr:nth-child(even) {
+  background-color: #fafaff;
+  border: 1px solid #eee;
+}
+.actLogIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 3.4rem;
+  height: 3.4rem;
+  color: green;
+  padding: .3rem;
+  border-radius: 44rem;
+  background-color: #fafaff;
+  border: 1px solid #eee;
+}
+.actLogDate {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
 }
 
 /* Affilation Decoration Blocks */

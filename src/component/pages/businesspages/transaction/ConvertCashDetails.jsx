@@ -6,6 +6,7 @@ function ConvertCashDetails() {
         <section className="sectionConvertToCash">
 
       <div className="airtimePay">
+        
         <div className="convertHeading">
         <span className="apNetwork">
             <h4>NGN9,800</h4>

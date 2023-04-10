@@ -24,6 +24,8 @@ import AdminLogin from "./component/pages/AdminLogin";
 import ProfileNotification from "./component/pages/profile/ProfileNotification";
 import History from "./component/pages/profile/History";
 import AffiliationInfo from "./component/company/AffiliationInfo";
+
+// Routing pages
 function MainClient() {
   return (
     <Routes>

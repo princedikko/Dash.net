@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 import "./css/profile.css";
 // Images
 import Dp from "./profile/othman.jpg";
+import Dpx from "./profile/aass.png";
 import ProfileBanner from "./profile/picture/profileBanner.png";
 // Icons
+import CardGift  from '@mui/icons-material/CardGiftcard';
+import PriceChangeIcon from '@mui/icons-material/PriceChange';
 // import DashBicon from "@mui/icons-material/DashboardOutlined";
 import DashBicon from "@mui/icons-material/PixOutlined";
 import BankIcon from "@mui/icons-material/AccountBalanceOutlined";
@@ -16,8 +19,8 @@ import TermsIcon from "@mui/icons-material/GavelOutlined";
 import WorkHistoryOutlinedIcon from "@mui/icons-material/WorkHistoryOutlined";
 import NotificationsIcon from "@mui/icons-material/NotificationsActiveOutlined";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
-import WifiPasswordIcon from "@mui/icons-material/WifiPassword";
-import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
+// import WifiPasswordIcon from "@mui/icons-material/WifiPassword";
+// import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import InsightsIcon from "@mui/icons-material/Insights";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
@@ -34,7 +37,7 @@ function ProfileSideNav(props) {
         <Link to="/account">
           <div className="profileAccount">
             <figure className="accountImg">
-              <img src={Dp} alt="dikko" />
+              <img src={Dpx} alt="dikko" />
             </figure>
             <h2>O.D Othman</h2>
             <p>$5467.80</p>
@@ -157,7 +160,7 @@ function Profile() {
                 </li>
                 <li className="profileHead">
                   <h3>
-                    <WifiPasswordIcon
+                    <PriceChangeIcon
                       fontSize="large"
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
@@ -167,7 +170,7 @@ function Profile() {
                 </li>
                 <li className="profileHead">
                   <h3>
-                    <SignalCellularAltIcon
+                    <CardGift
                       fontSize="large"
                       style={{ color: "#cccccc", fontSize: "3.4rem" }}
                     />
@@ -220,7 +223,7 @@ function Profile() {
             <hr />
             <div className="pBtmCard golf golf3">
               <figure>
-                Card one <br /> Lorem ipsum dolor sit amet consectetur,
+                Gift% <br /> Lorem ipsum dolor sit amet consectetur,
                 adipisicing elit. Officiis voluptatum autem id maxime itaque
                 mollitia architecto, odio unde aspernatur? Fugiat, molestias
                 architecto!
@@ -232,7 +235,7 @@ function Profile() {
                 odio unde aspernatur? Fugiat, molestias architecto!
               </figure>
               <figure>
-                Card three
+                Wheather forecast
                 <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis voluptatum autem id maxime itaque mollitia architecto,
                 odio unde aspernatur? Fugiat, molestias architecto!

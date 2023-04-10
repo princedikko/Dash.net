@@ -1,13 +1,20 @@
 import React from "react";
 import { ProfileHeader, ProfileSideNav } from "../Profile";
+// Icons
+import DoneAllIcon from '@mui/icons-material/DoneAll';
 
 function History() {
 
   function ActivilogEntry() {
     return (
       <tr>
-      <td>16/02/2023 9:53pm</td>
-      <td>Lorem ipsum dolor sit amet consectetur.</td>
+        <td>
+          <figure className="actLogIcon">
+            <DoneAllIcon fontSize="large"/>
+          </figure>
+        </td>
+      <td className="actLogDate"><span>16/02/2023</span><span>09:53pm</span></td>
+      <td>Account funding from O.D Othman/ Zenith Bank Plc/ Card Payment</td>
       <td>N9,500,000</td>
       <td>Null</td>
       <td>N95,4500,000</td>
@@ -35,6 +42,7 @@ function History() {
               <div className="activityLogCont">
                 <table>
                   <thead>
+                    <th>Statue</th>
                     <th>Date</th>
                     <th>Discription</th>
                     <th>Credit</th>
@@ -50,16 +58,7 @@ function History() {
                     <ActivilogEntry />
                     <ActivilogEntry />
                     <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
-                    <ActivilogEntry />
+                    <ActivilogEntry />                   
                   </tbody>
                 </table>
               </div>
