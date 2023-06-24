@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./css/profile.css";
 // Images
-import Dp from "./profile/othman.jpg";
+// import Dp from "./profile/othman.jpg";
 import Dpx from "./profile/aass.png";
 import ProfileBanner from "./profile/picture/profileBanner.png";
 // Icons
@@ -121,7 +121,7 @@ function ProfileHeader() {
         <Link to="/account" className="profileInfo flex">
           <span>O.D Othman</span>
           <figure className="dpIconImg">
-            <img src={Dp} alt="" />
+            <img src={Dpx} alt="" />
           </figure>
         </Link>
       </div>
@@ -193,7 +193,7 @@ function Profile() {
           </div>
           <div className="profileContent">
             <div className="profileSocialMedia">
-              <h2>Link your social networks</h2>
+              <h2>Links to our social networks</h2>
               <div className="iconsMediaCont">
                 <Link className="iconsMedia">
                   <TwitterIcon fontSize="large" />

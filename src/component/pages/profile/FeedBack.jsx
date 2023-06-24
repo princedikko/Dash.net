@@ -16,9 +16,9 @@ function FeedBack() {
             <input type="text" placeholder="Full Name.." required/>
             <label htmlFor="email">Email or Phone number </label>
             <input type="text" name="Rpemail" id="" placeholder="Enter email or number" required/>
-            <label htmlFor="inquiry">State</label>
-            <select name="Rpinquire" id="inquiryRp" >
-              <option value=" "  disabled selected hidden required>select..</option>
+            <label htmlFor="inquiry">I'm from</label>
+            <select name="Rpinquire" id="inquiryRp" required>
+              <option value=" "  disabled selected hidden >select your state..</option>
               <option value="caseOne" >Sokoto State</option>
               <option value="caseOne" >Kaduna State</option>
               <option value="caseOne" >Lagos State</option>
